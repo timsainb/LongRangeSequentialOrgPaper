@@ -1,0 +1,20 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P27\P27_cereals.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P27" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="32"/> 
+<MotionLabel name="carry_bowl" startPoint="33" endPoint="55"/> 
+<MotionLabel name="carry_cereal" startPoint="56" endPoint="72"/> 
+<MotionLabel name="open_cereal" startPoint="73" endPoint="126"/> 
+<MotionLabel name="carry_cereal" startPoint="127" endPoint="167"/> 
+<MotionLabel name="pour_cereal" startPoint="168" endPoint="344"/> 
+<MotionLabel name="carry_cereal" startPoint="345" endPoint="442"/> 
+<MotionLabel name="carry_milk" startPoint="443" endPoint="454"/> 
+<MotionLabel name="screwopen_capMilk" startPoint="455" endPoint="472"/> 
+<MotionLabel name="pour_milk" startPoint="473" endPoint="560"/> 
+<MotionLabel name="screwclose_capMilk" startPoint="561" endPoint="589"/> 
+<MotionLabel name="carry_milk" startPoint="590" endPoint="607"/> 
+<MotionLabel name="reach_spoon" startPoint="608" endPoint="628"/> 
+<MotionLabel name="stir_cereal" startPoint="629" endPoint="925"/> 
+<MotionLabel name="carry_bowl" startPoint="926" endPoint="961"/> 
+<MotionLabel name="garbage" startPoint="962" endPoint="986"/> 
+</Limb> 
+</MotionLabeling> 

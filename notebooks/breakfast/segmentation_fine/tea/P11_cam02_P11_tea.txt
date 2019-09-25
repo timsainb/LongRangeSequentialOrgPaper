@@ -1,0 +1,5 @@
+1-41 garbage  
+42-132 carry_teabag  
+133-213 pour_water  
+214-234 carry_kettle  
+235-335 garbage  

@@ -1,0 +1,15 @@
+1-261 garbage  
+262-1142 peel_fruit  
+1143-1185 carry_fruit  
+1186-1208 reach_knife  
+1209-1218 carry_knife  
+1219-1443 cut_fruit  
+1444-1452 reach_fruit  
+1453-1475 carry_fruit  
+1476-1484 reach_fruit  
+1485-1499 carry_knife  
+1500-2571 cut_fruit  
+2572-2589 reach_fruit  
+2590-2603 carry_fruit  
+2604-2618 carry_knife  
+2619-2712 garbage  

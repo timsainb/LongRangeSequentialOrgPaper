@@ -1,0 +1,28 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P35\P35_coffee.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P35" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="32"/> 
+<MotionLabel name="walk" startPoint="33" endPoint="45"/> 
+<MotionLabel name="reach_cup" startPoint="46" endPoint="55"/> 
+<MotionLabel name="carry_cup" startPoint="56" endPoint="66"/> 
+<MotionLabel name="reach_coffee" startPoint="67" endPoint="78"/> 
+<MotionLabel name="carry_coffee" startPoint="79" endPoint="109"/> 
+<MotionLabel name="pour_coffee" startPoint="110" endPoint="168"/> 
+<MotionLabel name="carry_coffee" startPoint="169" endPoint="196"/> 
+<MotionLabel name="move" startPoint="197" endPoint="206"/> 
+<MotionLabel name="reach_fridge" startPoint="207" endPoint="217"/> 
+<MotionLabel name="open_fridge" startPoint="218" endPoint="247"/> 
+<MotionLabel name="close_fridge" startPoint="248" endPoint="260"/> 
+<MotionLabel name="walk" startPoint="261" endPoint="275"/> 
+<MotionLabel name="screwopen_capMilk" startPoint="276" endPoint="285"/> 
+<MotionLabel name="pour_milk" startPoint="286" endPoint="328"/> 
+<MotionLabel name="screwclose_capMilk" startPoint="329" endPoint="347"/> 
+<MotionLabel name="walk" startPoint="348" endPoint="360"/> 
+<MotionLabel name="reach_fridge" startPoint="361" endPoint="364"/> 
+<MotionLabel name="open_fridge" startPoint="365" endPoint="380"/> 
+<MotionLabel name="close_fridge" startPoint="381" endPoint="397"/> 
+<MotionLabel name="walk" startPoint="398" endPoint="406"/> 
+<MotionLabel name="reach_cup" startPoint="407" endPoint="413"/> 
+<MotionLabel name="carry_cup" startPoint="414" endPoint="432"/> 
+<MotionLabel name="garbage" startPoint="433" endPoint="447"/> 
+</Limb> 
+</MotionLabeling> 

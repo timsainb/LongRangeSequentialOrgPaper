@@ -1,0 +1,41 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P38\P38_sandwich.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P38" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="16"/> 
+<MotionLabel name="cut_bread" startPoint="17" endPoint="182"/> 
+<MotionLabel name="carry_knife" startPoint="183" endPoint="197"/> 
+<MotionLabel name="carry_bread" startPoint="198" endPoint="225"/> 
+<MotionLabel name="carry_knife" startPoint="226" endPoint="256"/> 
+<MotionLabel name="reach_knife" startPoint="257" endPoint="271"/> 
+<MotionLabel name="reach_butter" startPoint="272" endPoint="286"/> 
+<MotionLabel name="scoop_butter" startPoint="287" endPoint="316"/> 
+<MotionLabel name="reach_bread" startPoint="317" endPoint="331"/> 
+<MotionLabel name="smear_butter" startPoint="332" endPoint="406"/> 
+<MotionLabel name="carry_knife" startPoint="407" endPoint="421"/> 
+<MotionLabel name="smear_butter" startPoint="422" endPoint="451"/> 
+<MotionLabel name="reach_butter" startPoint="452" endPoint="467"/> 
+<MotionLabel name="scoop_butter" startPoint="468" endPoint="511"/> 
+<MotionLabel name="reach_bread" startPoint="512" endPoint="526"/> 
+<MotionLabel name="smear_butter" startPoint="527" endPoint="571"/> 
+<MotionLabel name="reach_butter" startPoint="572" endPoint="586"/> 
+<MotionLabel name="scoop_butter" startPoint="587" endPoint="631"/> 
+<MotionLabel name="reach_bread" startPoint="632" endPoint="646"/> 
+<MotionLabel name="smear_butter" startPoint="647" endPoint="766"/> 
+<MotionLabel name="carry_knife" startPoint="767" endPoint="781"/> 
+<MotionLabel name="reach_topping" startPoint="782" endPoint="811"/> 
+<MotionLabel name="liftopen_lidTopping" startPoint="812" endPoint="826"/> 
+<MotionLabel name="reach_toppingpiece" startPoint="827" endPoint="841"/> 
+<MotionLabel name="carry_toppingpiece" startPoint="842" endPoint="871"/> 
+<MotionLabel name="reach_toppingpiece" startPoint="872" endPoint="872"/> 
+<MotionLabel name="carry_toppingpiece" startPoint="873" endPoint="902"/> 
+<MotionLabel name="reach_toppingpiece" startPoint="903" endPoint="915"/> 
+<MotionLabel name="carry_toppingpiece" startPoint="916" endPoint="931"/> 
+<MotionLabel name="reach_toppingpiece" startPoint="932" endPoint="945"/> 
+<MotionLabel name="carry_toppingpiece" startPoint="946" endPoint="990"/> 
+<MotionLabel name="reach_bread" startPoint="991" endPoint="1005"/> 
+<MotionLabel name="carry_bread" startPoint="1006" endPoint="1020"/> 
+<MotionLabel name="reach_bread" startPoint="1021" endPoint="1035"/> 
+<MotionLabel name="carry_bread" startPoint="1036" endPoint="1065"/> 
+<MotionLabel name="reach_butter" startPoint="1066" endPoint="1081"/> 
+<MotionLabel name="garbage" startPoint="1082" endPoint="1097"/> 
+</Limb> 
+</MotionLabeling> 

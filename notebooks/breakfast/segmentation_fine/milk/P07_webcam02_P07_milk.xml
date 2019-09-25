@@ -1,0 +1,26 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P07\P07_milk.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P07" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="129"/> 
+<MotionLabel name="reach_cabinet" startPoint="130" endPoint="131"/> 
+<MotionLabel name="open_cabinet" startPoint="132" endPoint="134"/> 
+<MotionLabel name="close_cabinet" startPoint="135" endPoint="202"/> 
+<MotionLabel name="liftopen_lidChoco" startPoint="203" endPoint="257"/> 
+<MotionLabel name="carry_spoon" startPoint="258" endPoint="303"/> 
+<MotionLabel name="scoop_chocolatepowder" startPoint="304" endPoint="388"/> 
+<MotionLabel name="carry_lidChoco" startPoint="389" endPoint="394"/> 
+<MotionLabel name="pressclose_lidChoco" startPoint="395" endPoint="434"/> 
+<MotionLabel name="walk" startPoint="435" endPoint="440"/> 
+<MotionLabel name="wait" startPoint="441" endPoint="520"/> 
+<MotionLabel name="screwopen_capMilk" startPoint="521" endPoint="522"/> 
+<MotionLabel name="move" startPoint="523" endPoint="557"/> 
+<MotionLabel name="carry_spoon" startPoint="558" endPoint="560"/> 
+<MotionLabel name="pour_milk" startPoint="561" endPoint="766"/> 
+<MotionLabel name="reach_capMilk" startPoint="767" endPoint="801"/> 
+<MotionLabel name="screwclose_capMilk" startPoint="802" endPoint="845"/> 
+<MotionLabel name="walk" startPoint="846" endPoint="882"/> 
+<MotionLabel name="wait" startPoint="883" endPoint="929"/> 
+<MotionLabel name="walk" startPoint="930" endPoint="966"/> 
+<MotionLabel name="stir_chocolate" startPoint="967" endPoint="970"/> 
+<MotionLabel name="garbage" startPoint="971" endPoint="1007"/> 
+</Limb> 
+</MotionLabeling> 

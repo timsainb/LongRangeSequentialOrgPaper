@@ -1,0 +1,33 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P15\P15_friedegg.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P15" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="14"/> 
+<MotionLabel name="liftopen_eggcarton" startPoint="15" endPoint="21"/> 
+<MotionLabel name="reach_egg" startPoint="22" endPoint="24"/> 
+<MotionLabel name="carry_egg" startPoint="25" endPoint="64"/> 
+<MotionLabel name="crack_egg" startPoint="65" endPoint="70"/> 
+<MotionLabel name="reach_egg" startPoint="71" endPoint="75"/> 
+<MotionLabel name="transfer_egg2pan" startPoint="76" endPoint="124"/> 
+<MotionLabel name="carry_egg" startPoint="125" endPoint="176"/> 
+<MotionLabel name="garbage" startPoint="177" endPoint="419"/> 
+<MotionLabel name="reach_spatula" startPoint="420" endPoint="426"/> 
+<MotionLabel name="reach_handle" startPoint="427" endPoint="441"/> 
+<MotionLabel name="fry_egg" startPoint="442" endPoint="484"/> 
+<MotionLabel name="carry_spatula" startPoint="485" endPoint="504"/> 
+<MotionLabel name="move" startPoint="505" endPoint="519"/> 
+<MotionLabel name="garbage" startPoint="520" endPoint="808"/> 
+<MotionLabel name="carry_plate" startPoint="809" endPoint="829"/> 
+<MotionLabel name="move" startPoint="830" endPoint="848"/> 
+<MotionLabel name="reach_spatula" startPoint="849" endPoint="867"/> 
+<MotionLabel name="fry_egg" startPoint="868" endPoint="964"/> 
+<MotionLabel name="carry_spatula" startPoint="965" endPoint="993"/> 
+<MotionLabel name="move" startPoint="994" endPoint="1009"/> 
+<MotionLabel name="garbage" startPoint="1010" endPoint="1803"/> 
+<MotionLabel name="reach_spatula" startPoint="1804" endPoint="1812"/> 
+<MotionLabel name="fry_egg" startPoint="1813" endPoint="1950"/> 
+<MotionLabel name="carry_spatula" startPoint="1951" endPoint="2210"/> 
+<MotionLabel name="carry_handle" startPoint="2211" endPoint="2277"/> 
+<MotionLabel name="reach_plate" startPoint="2278" endPoint="2289"/> 
+<MotionLabel name="carry_plate" startPoint="2290" endPoint="2338"/> 
+<MotionLabel name="garbage" startPoint="2339" endPoint="2365"/> 
+</Limb> 
+</MotionLabeling> 

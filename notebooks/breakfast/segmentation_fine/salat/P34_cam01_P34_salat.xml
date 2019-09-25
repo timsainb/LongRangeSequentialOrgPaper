@@ -1,0 +1,19 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P34\P34_salat.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P34" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="67"/> 
+<MotionLabel name="cut_fruit" startPoint="68" endPoint="1801"/> 
+<MotionLabel name="carry_knife" startPoint="1802" endPoint="1833"/> 
+<MotionLabel name="carry_cuttingboard" startPoint="1834" endPoint="1842"/> 
+<MotionLabel name="carry_knife" startPoint="1843" endPoint="1851"/> 
+<MotionLabel name="peel_fruit" startPoint="1852" endPoint="1857"/> 
+<MotionLabel name="carry_knife" startPoint="1858" endPoint="1879"/> 
+<MotionLabel name="reach_bowl" startPoint="1880" endPoint="1887"/> 
+<MotionLabel name="reach_knife" startPoint="1888" endPoint="1894"/> 
+<MotionLabel name="carry_knife" startPoint="1895" endPoint="1906"/> 
+<MotionLabel name="stir_salad" startPoint="1907" endPoint="1929"/> 
+<MotionLabel name="carry_knife" startPoint="1930" endPoint="1938"/> 
+<MotionLabel name="reach_bowl" startPoint="1939" endPoint="1944"/> 
+<MotionLabel name="carry_bowl" startPoint="1945" endPoint="1966"/> 
+<MotionLabel name="garbage" startPoint="1967" endPoint="2243"/> 
+</Limb> 
+</MotionLabeling> 

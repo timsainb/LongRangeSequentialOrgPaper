@@ -1,0 +1,17 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P15\P15_coffee.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P15" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="38"/> 
+<MotionLabel name="pour_coffee" startPoint="39" endPoint="76"/> 
+<MotionLabel name="carry_coffee" startPoint="77" endPoint="131"/> 
+<MotionLabel name="pour_coffee" startPoint="132" endPoint="399"/> 
+<MotionLabel name="carry_coffee" startPoint="400" endPoint="413"/> 
+<MotionLabel name="turn" startPoint="414" endPoint="440"/> 
+<MotionLabel name="shift" startPoint="441" endPoint="468"/> 
+<MotionLabel name="turn" startPoint="469" endPoint="475"/> 
+<MotionLabel name="carry_milk" startPoint="476" endPoint="494"/> 
+<MotionLabel name="screwopen_capMilk" startPoint="495" endPoint="500"/> 
+<MotionLabel name="pour_milk" startPoint="501" endPoint="586"/> 
+<MotionLabel name="carry_milk" startPoint="587" endPoint="613"/> 
+<MotionLabel name="garbage" startPoint="614" endPoint="628"/> 
+</Limb> 
+</MotionLabeling> 

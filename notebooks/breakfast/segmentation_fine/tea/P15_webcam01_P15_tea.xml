@@ -1,0 +1,20 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P15\P15_tea.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P15" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="13"/> 
+<MotionLabel name="reach_teabox" startPoint="14" endPoint="30"/> 
+<MotionLabel name="openClose_teabox" startPoint="31" endPoint="37"/> 
+<MotionLabel name="carry_teabag" startPoint="38" endPoint="55"/> 
+<MotionLabel name="open_teabag" startPoint="56" endPoint="82"/> 
+<MotionLabel name="carry_teabag" startPoint="83" endPoint="100"/> 
+<MotionLabel name="shift" startPoint="101" endPoint="130"/> 
+<MotionLabel name="carry_kettle" startPoint="131" endPoint="158"/> 
+<MotionLabel name="pour_water" startPoint="159" endPoint="240"/> 
+<MotionLabel name="carry_kettle" startPoint="241" endPoint="268"/> 
+<MotionLabel name="shift" startPoint="269" endPoint="303"/> 
+<MotionLabel name="carry_cup" startPoint="304" endPoint="324"/> 
+<MotionLabel name="reach_teabox" startPoint="325" endPoint="339"/> 
+<MotionLabel name="carry_teabox" startPoint="340" endPoint="348"/> 
+<MotionLabel name="hold_cup" startPoint="349" endPoint="358"/> 
+<MotionLabel name="garbage" startPoint="359" endPoint="358"/> 
+</Limb> 
+</MotionLabeling> 

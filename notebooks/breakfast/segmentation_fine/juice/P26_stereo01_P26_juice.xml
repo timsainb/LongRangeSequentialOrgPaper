@@ -1,0 +1,39 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P26\P26_juice.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P26" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="15"/> 
+<MotionLabel name="carry_spoon" startPoint="16" endPoint="28"/> 
+<MotionLabel name="reach_juicer" startPoint="29" endPoint="45"/> 
+<MotionLabel name="reach_knife" startPoint="46" endPoint="60"/> 
+<MotionLabel name="carry_knife" startPoint="61" endPoint="80"/> 
+<MotionLabel name="cut_orange" startPoint="81" endPoint="159"/> 
+<MotionLabel name="carry_orange" startPoint="160" endPoint="188"/> 
+<MotionLabel name="carry_knife" startPoint="189" endPoint="217"/> 
+<MotionLabel name="carry_juicer" startPoint="218" endPoint="235"/> 
+<MotionLabel name="reach_orange" startPoint="236" endPoint="245"/> 
+<MotionLabel name="carry_orange" startPoint="246" endPoint="255"/> 
+<MotionLabel name="reach_orange" startPoint="256" endPoint="261"/> 
+<MotionLabel name="carry_orange" startPoint="262" endPoint="287"/> 
+<MotionLabel name="squeeze_orange" startPoint="288" endPoint="519"/> 
+<MotionLabel name="carry_orange" startPoint="520" endPoint="546"/> 
+<MotionLabel name="squeeze_orange" startPoint="547" endPoint="809"/> 
+<MotionLabel name="carry_orange" startPoint="810" endPoint="885"/> 
+<MotionLabel name="reach_orange" startPoint="886" endPoint="893"/> 
+<MotionLabel name="carry_orange" startPoint="894" endPoint="938"/> 
+<MotionLabel name="reach_juicer" startPoint="939" endPoint="948"/> 
+<MotionLabel name="carry_juicer" startPoint="949" endPoint="1074"/> 
+<MotionLabel name="reach_juicer" startPoint="1075" endPoint="1081"/> 
+<MotionLabel name="carry_juicer" startPoint="1082" endPoint="1086"/> 
+<MotionLabel name="reach_cup" startPoint="1087" endPoint="1094"/> 
+<MotionLabel name="carry_cup" startPoint="1095" endPoint="1119"/> 
+<MotionLabel name="pour_juice" startPoint="1120" endPoint="1163"/> 
+<MotionLabel name="carry_juicer" startPoint="1164" endPoint="1198"/> 
+<MotionLabel name="reach_juicer" startPoint="1199" endPoint="1213"/> 
+<MotionLabel name="carry_juicer" startPoint="1214" endPoint="1233"/> 
+<MotionLabel name="hold_cup" startPoint="1234" endPoint="1238"/> 
+<MotionLabel name="reach_juicer" startPoint="1239" endPoint="1246"/> 
+<MotionLabel name="carry_juicer" startPoint="1247" endPoint="1261"/> 
+<MotionLabel name="reach_cup" startPoint="1262" endPoint="1278"/> 
+<MotionLabel name="carry_cup" startPoint="1279" endPoint="1310"/> 
+<MotionLabel name="garbage" startPoint="1311" endPoint="1310"/> 
+</Limb> 
+</MotionLabeling> 

@@ -1,0 +1,13 @@
+1-133 garbage  
+134-168 reach_teabag  
+169-234 open_teabag  
+235-877 carry_teabag  
+878-897 carry_kettle  
+898-987 pour_water  
+988-1002 carry_kettle  
+1003-1047 carry_teabag  
+1048-1070 wait  
+1071-1095 turn  
+1096-1122 reach_cup  
+1123-1164 carry_cup  
+1165-1169 garbage  

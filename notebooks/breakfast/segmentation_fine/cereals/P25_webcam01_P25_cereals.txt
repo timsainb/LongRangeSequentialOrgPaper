@@ -1,0 +1,15 @@
+1-231 garbage  
+232-253 carry_milk  
+254-274 open_cereal  
+275-305 carry_milk  
+306-322 reach_cereal  
+323-359 open_cereal  
+360-396 carry_cereal  
+397-457 pour_cereal  
+458-485 carry_cereal  
+486-510 carry_milk  
+511-564 pour_milk  
+565-579 reach_capMilk  
+580-605 screwclose_capMilk  
+606-634 carry_bowl  
+635-795 garbage  

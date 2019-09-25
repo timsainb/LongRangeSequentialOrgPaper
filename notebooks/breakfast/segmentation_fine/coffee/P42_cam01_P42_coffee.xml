@@ -1,0 +1,22 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P42\P42_coffee.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P42" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="93"/> 
+<MotionLabel name="carry_cup" startPoint="94" endPoint="117"/> 
+<MotionLabel name="reach_coffee" startPoint="118" endPoint="132"/> 
+<MotionLabel name="reach_cup" startPoint="133" endPoint="151"/> 
+<MotionLabel name="pour_coffee" startPoint="152" endPoint="309"/> 
+<MotionLabel name="carry_coffee" startPoint="310" endPoint="348"/> 
+<MotionLabel name="move" startPoint="349" endPoint="375"/> 
+<MotionLabel name="carry_milk" startPoint="376" endPoint="411"/> 
+<MotionLabel name="screwopen_capMilk" startPoint="412" endPoint="436"/> 
+<MotionLabel name="pour_milk" startPoint="437" endPoint="481"/> 
+<MotionLabel name="carry_milk" startPoint="482" endPoint="548"/> 
+<MotionLabel name="garbage" startPoint="549" endPoint="741"/> 
+<MotionLabel name="carry_sugar" startPoint="742" endPoint="750"/> 
+<MotionLabel name="shift" startPoint="751" endPoint="836"/> 
+<MotionLabel name="carry_spoon" startPoint="837" endPoint="840"/> 
+<MotionLabel name="reach_cup" startPoint="841" endPoint="845"/> 
+<MotionLabel name="stir_coffee" startPoint="846" endPoint="916"/> 
+<MotionLabel name="garbage" startPoint="917" endPoint="932"/> 
+</Limb> 
+</MotionLabeling> 

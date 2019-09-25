@@ -1,0 +1,17 @@
+1-58 garbage  
+59-65 reach_cup  
+66-76 reach_coffee  
+77-97 carry_coffee  
+98-150 hold_coffee  
+151-247 pour_coffee  
+248-270 carry_coffee  
+271-279 reach_milk  
+280-321 carry_milk  
+322-330 screwopen_capMilk  
+331-408 pour_milk  
+409-428 screwclose_capMilk  
+429-456 carry_milk  
+457-468 reach_cup  
+469-491 hold_cup  
+492-521 carry_cup  
+522-521 garbage  

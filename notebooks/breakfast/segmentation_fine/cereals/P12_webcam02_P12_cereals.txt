@@ -1,0 +1,17 @@
+1-88 garbage  
+89-105 carry_bowl  
+106-125 wait  
+126-150 reach_cereal  
+151-177 open_cereal  
+178-277 carry_cereal  
+278-334 pour_cereal  
+335-383 carry_cereal  
+384-415 garbage  
+416-450 screwopen_capMilk  
+451-499 pour_milk  
+500-547 screwclose_capMilk  
+548-566 carry_milk  
+567-581 reach_bowl  
+582-594 stir_cereal  
+595-610 carry_bowl  
+611-650 garbage  

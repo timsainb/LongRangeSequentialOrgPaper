@@ -1,0 +1,15 @@
+1-48 garbage  
+49-61 reach_cereal  
+62-102 open_cereal  
+103-167 carry_cereal  
+168-215 pour_cereal  
+216-284 close_cereal  
+285-299 carry_cereal  
+300-312 reach_fridge  
+313-336 open_fridge  
+337-359 close_fridge  
+360-380 screwopen_capMilk  
+381-431 pour_milk  
+432-449 screwclose_capMilk  
+450-461 reach_drawer  
+462-765 garbage  

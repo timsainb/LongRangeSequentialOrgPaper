@@ -1,0 +1,32 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P07\P07_cereals.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P07" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="32"/> 
+<MotionLabel name="shift" startPoint="33" endPoint="120"/> 
+<MotionLabel name="carry_bowl" startPoint="121" endPoint="137"/> 
+<MotionLabel name="move" startPoint="138" endPoint="147"/> 
+<MotionLabel name="wait" startPoint="148" endPoint="231"/> 
+<MotionLabel name="carry_bowl" startPoint="232" endPoint="265"/> 
+<MotionLabel name="wait" startPoint="266" endPoint="301"/> 
+<MotionLabel name="reach_bowl" startPoint="302" endPoint="310"/> 
+<MotionLabel name="carry_bowl" startPoint="311" endPoint="322"/> 
+<MotionLabel name="open_cereal" startPoint="323" endPoint="357"/> 
+<MotionLabel name="carry_cereal" startPoint="358" endPoint="393"/> 
+<MotionLabel name="pour_cereal" startPoint="394" endPoint="461"/> 
+<MotionLabel name="carry_cereal" startPoint="462" endPoint="498"/> 
+<MotionLabel name="turn" startPoint="499" endPoint="519"/> 
+<MotionLabel name="walk" startPoint="520" endPoint="552"/> 
+<MotionLabel name="open_fridge" startPoint="553" endPoint="571"/> 
+<MotionLabel name="close_fridge" startPoint="572" endPoint="585"/> 
+<MotionLabel name="turn" startPoint="586" endPoint="606"/> 
+<MotionLabel name="garbage" startPoint="607" endPoint="619"/> 
+<MotionLabel name="carry_milk" startPoint="620" endPoint="641"/> 
+<MotionLabel name="pour_milk" startPoint="642" endPoint="740"/> 
+<MotionLabel name="screwclose_capMilk" startPoint="741" endPoint="772"/> 
+<MotionLabel name="carry_milk" startPoint="773" endPoint="785"/> 
+<MotionLabel name="shift" startPoint="786" endPoint="793"/> 
+<MotionLabel name="garbage" startPoint="794" endPoint="849"/> 
+<MotionLabel name="carry_spoon" startPoint="850" endPoint="861"/> 
+<MotionLabel name="stir_cereal" startPoint="862" endPoint="908"/> 
+<MotionLabel name="garbage" startPoint="909" endPoint="941"/> 
+</Limb> 
+</MotionLabeling> 

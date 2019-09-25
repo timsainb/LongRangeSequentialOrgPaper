@@ -1,0 +1,12 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P44\P44_salat.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P44" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="944"/> 
+<MotionLabel name="carry_fruit" startPoint="945" endPoint="975"/> 
+<MotionLabel name="cut_fruit" startPoint="976" endPoint="2358"/> 
+<MotionLabel name="reach_fruit" startPoint="2359" endPoint="2371"/> 
+<MotionLabel name="carry_fruit" startPoint="2372" endPoint="3256"/> 
+<MotionLabel name="cut_fruit" startPoint="3257" endPoint="4698"/> 
+<MotionLabel name="carry_knife" startPoint="4699" endPoint="4854"/> 
+<MotionLabel name="garbage" startPoint="4855" endPoint="4923"/> 
+</Limb> 
+</MotionLabeling> 

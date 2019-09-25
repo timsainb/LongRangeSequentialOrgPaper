@@ -1,0 +1,15 @@
+1-32 garbage  
+33-47 reach_coffee  
+48-62 carry_coffee  
+63-121 pour_coffee  
+122-137 carry_coffee  
+138-165 reach_milk  
+166-166 screwopen_capMilk  
+167-182 carry_milk  
+183-197 pour_milk  
+198-227 carry_milk  
+228-242 pour_milk  
+243-257 carry_milk  
+258-287 screwclose_capMilk  
+288-302 carry_milk  
+303-375 garbage  

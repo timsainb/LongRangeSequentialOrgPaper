@@ -1,0 +1,18 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P19\P19_tea.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P19" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="20"/> 
+<MotionLabel name="carry_cup" startPoint="21" endPoint="40"/> 
+<MotionLabel name="reach_kettle" startPoint="41" endPoint="68"/> 
+<MotionLabel name="reach_cup" startPoint="69" endPoint="92"/> 
+<MotionLabel name="carry_cup" startPoint="93" endPoint="107"/> 
+<MotionLabel name="pour_water" startPoint="108" endPoint="183"/> 
+<MotionLabel name="carry_kettle" startPoint="184" endPoint="213"/> 
+<MotionLabel name="carry_teabag" startPoint="214" endPoint="235"/> 
+<MotionLabel name="open_teabag" startPoint="236" endPoint="258"/> 
+<MotionLabel name="carry_teabag" startPoint="259" endPoint="291"/> 
+<MotionLabel name="wait" startPoint="292" endPoint="346"/> 
+<MotionLabel name="garbage" startPoint="347" endPoint="382"/> 
+<MotionLabel name="wait" startPoint="383" endPoint="400"/> 
+<MotionLabel name="garbage" startPoint="401" endPoint="400"/> 
+</Limb> 
+</MotionLabeling> 

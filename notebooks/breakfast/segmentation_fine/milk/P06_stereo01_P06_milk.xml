@@ -1,0 +1,30 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P06\P06_milk.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P06" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="15"/> 
+<MotionLabel name="open_cabinet" startPoint="16" endPoint="17"/> 
+<MotionLabel name="reach_cup" startPoint="18" endPoint="45"/> 
+<MotionLabel name="carry_cup" startPoint="46" endPoint="61"/> 
+<MotionLabel name="close_cabinet" startPoint="62" endPoint="75"/> 
+<MotionLabel name="reach_spoon" startPoint="76" endPoint="77"/> 
+<MotionLabel name="push_drawer" startPoint="78" endPoint="91"/> 
+<MotionLabel name="carry_spoon" startPoint="92" endPoint="105"/> 
+<MotionLabel name="reach_chocolatepowder" startPoint="106" endPoint="106"/> 
+<MotionLabel name="carry_spoon" startPoint="107" endPoint="136"/> 
+<MotionLabel name="liftopen_lidChoco" startPoint="137" endPoint="151"/> 
+<MotionLabel name="carry_lidChoco" startPoint="152" endPoint="167"/> 
+<MotionLabel name="screwopen_capMilk" startPoint="168" endPoint="182"/> 
+<MotionLabel name="move" startPoint="183" endPoint="197"/> 
+<MotionLabel name="reach_chocolatepowder" startPoint="198" endPoint="211"/> 
+<MotionLabel name="scoop_chocolatepowder" startPoint="212" endPoint="272"/> 
+<MotionLabel name="carry_spoon" startPoint="273" endPoint="287"/> 
+<MotionLabel name="reach_cup" startPoint="288" endPoint="301"/> 
+<MotionLabel name="pour_milk" startPoint="302" endPoint="391"/> 
+<MotionLabel name="reach_spoon" startPoint="392" endPoint="392"/> 
+<MotionLabel name="carry_spoon" startPoint="393" endPoint="420"/> 
+<MotionLabel name="stir_chocolate" startPoint="421" endPoint="510"/> 
+<MotionLabel name="carry_lidChoco" startPoint="511" endPoint="526"/> 
+<MotionLabel name="pressclose_lidChoco" startPoint="527" endPoint="541"/> 
+<MotionLabel name="reach_cup" startPoint="542" endPoint="542"/> 
+<MotionLabel name="garbage" startPoint="513" endPoint="585"/> 
+</Limb> 
+</MotionLabeling> 

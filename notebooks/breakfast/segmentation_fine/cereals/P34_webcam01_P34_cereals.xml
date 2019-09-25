@@ -1,0 +1,19 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P34\P34_cereals.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P34" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="48"/> 
+<MotionLabel name="reach_cereal" startPoint="49" endPoint="61"/> 
+<MotionLabel name="open_cereal" startPoint="62" endPoint="102"/> 
+<MotionLabel name="carry_cereal" startPoint="103" endPoint="167"/> 
+<MotionLabel name="pour_cereal" startPoint="168" endPoint="215"/> 
+<MotionLabel name="close_cereal" startPoint="216" endPoint="284"/> 
+<MotionLabel name="carry_cereal" startPoint="285" endPoint="299"/> 
+<MotionLabel name="reach_fridge" startPoint="300" endPoint="312"/> 
+<MotionLabel name="open_fridge" startPoint="313" endPoint="336"/> 
+<MotionLabel name="close_fridge" startPoint="337" endPoint="359"/> 
+<MotionLabel name="screwopen_capMilk" startPoint="360" endPoint="380"/> 
+<MotionLabel name="pour_milk" startPoint="381" endPoint="431"/> 
+<MotionLabel name="screwclose_capMilk" startPoint="432" endPoint="449"/> 
+<MotionLabel name="reach_drawer" startPoint="450" endPoint="461"/> 
+<MotionLabel name="garbage" startPoint="462" endPoint="765"/> 
+</Limb> 
+</MotionLabeling> 

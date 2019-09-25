@@ -1,0 +1,14 @@
+1-20 garbage  
+21-40 carry_cup  
+41-68 reach_kettle  
+69-92 reach_cup  
+93-107 carry_cup  
+108-183 pour_water  
+184-213 carry_kettle  
+214-235 carry_teabag  
+236-258 open_teabag  
+259-291 carry_teabag  
+292-346 wait  
+347-382 garbage  
+383-400 wait  
+401-400 garbage  

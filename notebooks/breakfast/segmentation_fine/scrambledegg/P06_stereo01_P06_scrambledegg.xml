@@ -1,0 +1,28 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P06\P06_scrambledegg.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P06" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="16"/> 
+<MotionLabel name="reach_stove" startPoint="17" endPoint="30"/> 
+<MotionLabel name="hold_handle" startPoint="31" endPoint="46"/> 
+<MotionLabel name="carry_egg" startPoint="47" endPoint="47"/> 
+<MotionLabel name="crack_egg" startPoint="48" endPoint="91"/> 
+<MotionLabel name="reach_spoon" startPoint="92" endPoint="106"/> 
+<MotionLabel name="reach_handle" startPoint="107" endPoint="120"/> 
+<MotionLabel name="scramble_egg" startPoint="121" endPoint="527"/> 
+<MotionLabel name="carry_spoon" startPoint="528" endPoint="556"/> 
+<MotionLabel name="reach_handle" startPoint="391" endPoint="570"/> 
+<MotionLabel name="scramble_egg" startPoint="571" endPoint="841"/> 
+<MotionLabel name="reach_salt" startPoint="842" endPoint="856"/> 
+<MotionLabel name="carry_salt" startPoint="857" endPoint="871"/> 
+<MotionLabel name="screwopen_capSalt" startPoint="872" endPoint="885"/> 
+<MotionLabel name="carry_salt" startPoint="886" endPoint="887"/> 
+<MotionLabel name="pour_salt" startPoint="888" endPoint="917"/> 
+<MotionLabel name="scramble_egg" startPoint="918" endPoint="1112"/> 
+<MotionLabel name="transfer_egg2plate" startPoint="1113" endPoint="1245"/> 
+<MotionLabel name="carry_spoon" startPoint="1246" endPoint="1261"/> 
+<MotionLabel name="reach_stove" startPoint="1262" endPoint="1276"/> 
+<MotionLabel name="carry_pan" startPoint="1277" endPoint="1306"/> 
+<MotionLabel name="reach_egg" startPoint="1307" endPoint="1321"/> 
+<MotionLabel name="carry_egg" startPoint="1322" endPoint="1335"/> 
+<MotionLabel name="garbage" startPoint="1336" endPoint="1350"/> 
+</Limb> 
+</MotionLabeling> 

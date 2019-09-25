@@ -1,0 +1,10 @@
+1-87 garbage  
+88-105 carry_teabag  
+106-111 shift  
+112-164 garbage  
+165-172 reach_cup  
+173-185 carry_cup  
+186-252 pour_water  
+253-276 reach_teabag  
+277-374 carry_teabag  
+375-425 garbage  

@@ -1,0 +1,10 @@
+1-40 garbage  
+41-51 carry_coffee  
+52-60 reach_cup  
+61-148 pour_coffee  
+149-166 carry_coffee  
+167-174 move  
+175-189 shift  
+190-205 reach_cup  
+206-219 carry_cup  
+220-219 garbage  

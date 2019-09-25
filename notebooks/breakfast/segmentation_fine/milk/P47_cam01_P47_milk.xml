@@ -1,0 +1,35 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P47\P47_milk.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P47" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="113"/> 
+<MotionLabel name="carry_cup" startPoint="114" endPoint="139"/> 
+<MotionLabel name="move" startPoint="140" endPoint="148"/> 
+<MotionLabel name="garbage" startPoint="149" endPoint="210"/> 
+<MotionLabel name="carry_spoon" startPoint="211" endPoint="214"/> 
+<MotionLabel name="reach_chocolatepowder" startPoint="215" endPoint="221"/> 
+<MotionLabel name="carry_chocolatepowder" startPoint="222" endPoint="255"/> 
+<MotionLabel name="liftopen_lidChoco" startPoint="256" endPoint="276"/> 
+<MotionLabel name="carry_lidChoco" startPoint="277" endPoint="284"/> 
+<MotionLabel name="carry_spoon" startPoint="285" endPoint="293"/> 
+<MotionLabel name="scoop_chocolatepowder" startPoint="294" endPoint="313"/> 
+<MotionLabel name="carry_spoon" startPoint="314" endPoint="352"/> 
+<MotionLabel name="scoop_chocolatepowder" startPoint="353" endPoint="359"/> 
+<MotionLabel name="carry_spoon" startPoint="360" endPoint="386"/> 
+<MotionLabel name="reach_lidChoco" startPoint="387" endPoint="393"/> 
+<MotionLabel name="carry_lidChoco" startPoint="394" endPoint="405"/> 
+<MotionLabel name="pressclose_lidChoco" startPoint="406" endPoint="431"/> 
+<MotionLabel name="carry_chocolatepowder" startPoint="432" endPoint="468"/> 
+<MotionLabel name="reach_milk" startPoint="469" endPoint="486"/> 
+<MotionLabel name="carry_milk" startPoint="487" endPoint="495"/> 
+<MotionLabel name="screwopen_capMilk" startPoint="496" endPoint="520"/> 
+<MotionLabel name="carry_milk" startPoint="521" endPoint="545"/> 
+<MotionLabel name="pour_milk" startPoint="546" endPoint="616"/> 
+<MotionLabel name="carry_milk" startPoint="617" endPoint="624"/> 
+<MotionLabel name="screwclose_capMilk" startPoint="625" endPoint="663"/> 
+<MotionLabel name="carry_milk" startPoint="664" endPoint="686"/> 
+<MotionLabel name="reach_spoon" startPoint="687" endPoint="693"/> 
+<MotionLabel name="stir_chocolate" startPoint="694" endPoint="973"/> 
+<MotionLabel name="move" startPoint="974" endPoint="975"/> 
+<MotionLabel name="carry_cup" startPoint="976" endPoint="992"/> 
+<MotionLabel name="garbage" startPoint="993" endPoint="992"/> 
+</Limb> 
+</MotionLabeling> 

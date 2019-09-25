@@ -1,0 +1,15 @@
+1-67 garbage  
+68-1801 cut_fruit  
+1802-1833 carry_knife  
+1834-1842 carry_cuttingboard  
+1843-1851 carry_knife  
+1852-1857 peel_fruit  
+1858-1879 carry_knife  
+1880-1887 reach_bowl  
+1888-1894 reach_knife  
+1895-1906 carry_knife  
+1907-1929 stir_salad  
+1930-1938 carry_knife  
+1939-1944 reach_bowl  
+1945-1966 carry_bowl  
+1967-2243 garbage  

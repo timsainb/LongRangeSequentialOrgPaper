@@ -1,0 +1,38 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P04\P04_friedegg.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P04" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="25"/> 
+<MotionLabel name="turnonOff_stove" startPoint="26" endPoint="36"/> 
+<MotionLabel name="walk" startPoint="37" endPoint="39"/> 
+<MotionLabel name="reach_oil" startPoint="40" endPoint="46"/> 
+<MotionLabel name="carry_oil" startPoint="47" endPoint="70"/> 
+<MotionLabel name="screwopen_capOil" startPoint="71" endPoint="98"/> 
+<MotionLabel name="pour_oil" startPoint="99" endPoint="176"/> 
+<MotionLabel name="screwclose_capOil" startPoint="177" endPoint="186"/> 
+<MotionLabel name="carry_oil" startPoint="187" endPoint="214"/> 
+<MotionLabel name="turn" startPoint="215" endPoint="243"/> 
+<MotionLabel name="wait" startPoint="244" endPoint="301"/> 
+<MotionLabel name="turn" startPoint="302" endPoint="321"/> 
+<MotionLabel name="carry_egg" startPoint="322" endPoint="334"/> 
+<MotionLabel name="crack_egg" startPoint="335" endPoint="355"/> 
+<MotionLabel name="carry_egg" startPoint="356" endPoint="367"/> 
+<MotionLabel name="transfer_egg2pan" startPoint="368" endPoint="409"/> 
+<MotionLabel name="move" startPoint="410" endPoint="425"/> 
+<MotionLabel name="shift" startPoint="426" endPoint="451"/> 
+<MotionLabel name="fry_egg" startPoint="452" endPoint="3014"/> 
+<MotionLabel name="walk" startPoint="3015" endPoint="3043"/> 
+<MotionLabel name="garbage" startPoint="3044" endPoint="3107"/> 
+<MotionLabel name="carry_plate" startPoint="3108" endPoint="3112"/> 
+<MotionLabel name="walk" startPoint="3113" endPoint="3126"/> 
+<MotionLabel name="turn" startPoint="3127" endPoint="3135"/> 
+<MotionLabel name="carry_spatula" startPoint="3136" endPoint="3152"/> 
+<MotionLabel name="pickup_egg" startPoint="3153" endPoint="3182"/> 
+<MotionLabel name="carry_spatula" startPoint="3183" endPoint="3201"/> 
+<MotionLabel name="pickup_egg" startPoint="3202" endPoint="3256"/> 
+<MotionLabel name="carry_spatula" startPoint="3257" endPoint="3270"/> 
+<MotionLabel name="carry_plate" startPoint="3271" endPoint="3296"/> 
+<MotionLabel name="turnonOff_stove" startPoint="3297" endPoint="3317"/> 
+<MotionLabel name="turn" startPoint="3318" endPoint="3329"/> 
+<MotionLabel name="walk" startPoint="3330" endPoint="3341"/> 
+<MotionLabel name="garbage" startPoint="3342" endPoint="3361"/> 
+</Limb> 
+</MotionLabeling> 

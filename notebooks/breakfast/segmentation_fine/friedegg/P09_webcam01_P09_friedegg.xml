@@ -1,0 +1,31 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P09\P09_friedegg.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P09" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="38"/> 
+<MotionLabel name="reach_egg" startPoint="39" endPoint="54"/> 
+<MotionLabel name="carry_egg" startPoint="55" endPoint="65"/> 
+<MotionLabel name="crack_egg" startPoint="66" endPoint="81"/> 
+<MotionLabel name="transfer_egg2pan" startPoint="82" endPoint="110"/> 
+<MotionLabel name="carry_egg" startPoint="111" endPoint="183"/> 
+<MotionLabel name="fry_egg" startPoint="184" endPoint="691"/> 
+<MotionLabel name="reach_oil" startPoint="692" endPoint="729"/> 
+<MotionLabel name="carry_oil" startPoint="730" endPoint="734"/> 
+<MotionLabel name="pour_oil" startPoint="735" endPoint="775"/> 
+<MotionLabel name="carry_oil" startPoint="776" endPoint="812"/> 
+<MotionLabel name="fry_egg" startPoint="813" endPoint="1340"/> 
+<MotionLabel name="reach_oil" startPoint="1341" endPoint="1359"/> 
+<MotionLabel name="carry_oil" startPoint="1360" endPoint="1384"/> 
+<MotionLabel name="pour_oil" startPoint="1385" endPoint="1409"/> 
+<MotionLabel name="reach_oil" startPoint="1410" endPoint="1414"/> 
+<MotionLabel name="carry_oil" startPoint="1415" endPoint="1435"/> 
+<MotionLabel name="fry_egg" startPoint="1436" endPoint="1567"/> 
+<MotionLabel name="garbage" startPoint="1568" endPoint="1590"/> 
+<MotionLabel name="fry_egg" startPoint="1591" endPoint="2300"/> 
+<MotionLabel name="carry_spatula" startPoint="2301" endPoint="2335"/> 
+<MotionLabel name="pickup_egg" startPoint="2336" endPoint="2355"/> 
+<MotionLabel name="carry_spatula" startPoint="2356" endPoint="2363"/> 
+<MotionLabel name="garbage" startPoint="2364" endPoint="2373"/> 
+<MotionLabel name="carry_spatula" startPoint="2374" endPoint="2382"/> 
+<MotionLabel name="garbage" startPoint="2383" endPoint="2388"/> 
+<MotionLabel name="garbage" startPoint="2389" endPoint="2388"/> 
+</Limb> 
+</MotionLabeling> 

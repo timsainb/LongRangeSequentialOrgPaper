@@ -1,0 +1,11 @@
+1-35 garbage  
+36-64 carry_teabag  
+65-78 reach_kettle  
+79-107 carry_kettle  
+108-174 pour_water  
+175-208 carry_kettle  
+209-255 turn  
+256-266 reach_teabag  
+267-437 carry_teabag  
+438-446 move  
+447-466 garbage  

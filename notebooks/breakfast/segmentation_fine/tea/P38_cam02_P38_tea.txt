@@ -1,0 +1,14 @@
+1-7 garbage  
+8-22 reach_teabag  
+23-41 carry_teabag  
+42-54 reach_kettle  
+55-85 carry_kettle  
+86-160 pour_water  
+161-173 carry_kettle  
+174-189 pour_water  
+190-218 carry_kettle  
+219-308 garbage  
+309-319 reach_teabag  
+320-397 carry_teabag  
+398-418 reach_cup  
+419-446 garbage  

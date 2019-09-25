@@ -1,0 +1,13 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P22\P22_coffee.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P22" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="39"/> 
+<MotionLabel name="move" startPoint="40" endPoint="54"/> 
+<MotionLabel name="carry_coffee" startPoint="55" endPoint="62"/> 
+<MotionLabel name="pour_coffee" startPoint="63" endPoint="164"/> 
+<MotionLabel name="carry_coffee" startPoint="165" endPoint="177"/> 
+<MotionLabel name="move" startPoint="178" endPoint="197"/> 
+<MotionLabel name="carry_coffee" startPoint="198" endPoint="213"/> 
+<MotionLabel name="walk" startPoint="214" endPoint="234"/> 
+<MotionLabel name="garbage" startPoint="235" endPoint="249"/> 
+</Limb> 
+</MotionLabeling> 

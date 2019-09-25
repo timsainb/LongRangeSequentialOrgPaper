@@ -1,0 +1,31 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P53\P53_friedegg.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P53" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="11"/> 
+<MotionLabel name="reach_spatula" startPoint="12" endPoint="23"/> 
+<MotionLabel name="carry_egg" startPoint="24" endPoint="40"/> 
+<MotionLabel name="crack_egg" startPoint="41" endPoint="92"/> 
+<MotionLabel name="transfer_egg2pan" startPoint="93" endPoint="122"/> 
+<MotionLabel name="carry_egg" startPoint="123" endPoint="176"/> 
+<MotionLabel name="move" startPoint="177" endPoint="188"/> 
+<MotionLabel name="reach_salt" startPoint="189" endPoint="198"/> 
+<MotionLabel name="carry_salt" startPoint="199" endPoint="211"/> 
+<MotionLabel name="pour_salt" startPoint="212" endPoint="237"/> 
+<MotionLabel name="carry_salt" startPoint="238" endPoint="248"/> 
+<MotionLabel name="reach_pepper" startPoint="249" endPoint="257"/> 
+<MotionLabel name="carry_pepper" startPoint="258" endPoint="272"/> 
+<MotionLabel name="grind_pepper" startPoint="273" endPoint="450"/> 
+<MotionLabel name="carry_pepper" startPoint="451" endPoint="476"/> 
+<MotionLabel name="reach_handle" startPoint="477" endPoint="495"/> 
+<MotionLabel name="wait" startPoint="496" endPoint="954"/> 
+<MotionLabel name="carry_plate" startPoint="955" endPoint="982"/> 
+<MotionLabel name="move" startPoint="983" endPoint="998"/> 
+<MotionLabel name="carry_plate" startPoint="999" endPoint="1014"/> 
+<MotionLabel name="wait" startPoint="1015" endPoint="1333"/> 
+<MotionLabel name="reach_spatula" startPoint="1334" endPoint="1345"/> 
+<MotionLabel name="carry_spatula" startPoint="1346" endPoint="1359"/> 
+<MotionLabel name="fry_egg" startPoint="1360" endPoint="1586"/> 
+<MotionLabel name="wait" startPoint="1587" endPoint="1771"/> 
+<MotionLabel name="fry_egg" startPoint="1772" endPoint="1861"/> 
+<MotionLabel name="garbage" startPoint="1862" endPoint="1927"/> 
+</Limb> 
+</MotionLabeling> 

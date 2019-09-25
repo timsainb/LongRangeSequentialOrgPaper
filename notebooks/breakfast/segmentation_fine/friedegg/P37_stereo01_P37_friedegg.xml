@@ -1,0 +1,43 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P37\P37_friedegg.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P37" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="29"/> 
+<MotionLabel name="screwopen_capOil" startPoint="30" endPoint="48"/> 
+<MotionLabel name="pour_oil" startPoint="49" endPoint="100"/> 
+<MotionLabel name="screwclose_capOil" startPoint="101" endPoint="120"/> 
+<MotionLabel name="reach_handle" startPoint="121" endPoint="135"/> 
+<MotionLabel name="turnonOff_stove" startPoint="136" endPoint="155"/> 
+<MotionLabel name="reach_eggcarton" startPoint="156" endPoint="167"/> 
+<MotionLabel name="liftopen_eggcarton" startPoint="168" endPoint="181"/> 
+<MotionLabel name="reach_egg" startPoint="182" endPoint="207"/> 
+<MotionLabel name="reach_spatula" startPoint="208" endPoint="220"/> 
+<MotionLabel name="carry_spatula" startPoint="221" endPoint="254"/> 
+<MotionLabel name="transfer_egg2pan" startPoint="255" endPoint="321"/> 
+<MotionLabel name="carry_egg" startPoint="322" endPoint="333"/> 
+<MotionLabel name="reach_spatula" startPoint="334" endPoint="344"/> 
+<MotionLabel name="reach_salt" startPoint="345" endPoint="375"/> 
+<MotionLabel name="carry_salt" startPoint="376" endPoint="382"/> 
+<MotionLabel name="pour_salt" startPoint="383" endPoint="429"/> 
+<MotionLabel name="reach_salt" startPoint="430" endPoint="434"/> 
+<MotionLabel name="carry_salt" startPoint="435" endPoint="450"/> 
+<MotionLabel name="move" startPoint="451" endPoint="469"/> 
+<MotionLabel name="screwopen_capPepper" startPoint="470" endPoint="520"/> 
+<MotionLabel name="grind_pepper" startPoint="521" endPoint="596"/> 
+<MotionLabel name="screwclose_capPepper" startPoint="597" endPoint="603"/> 
+<MotionLabel name="carry_pepper" startPoint="604" endPoint="624"/> 
+<MotionLabel name="fry_egg" startPoint="625" endPoint="1820"/> 
+<MotionLabel name="reach_plate" startPoint="1821" endPoint="1842"/> 
+<MotionLabel name="reach_bowl" startPoint="1843" endPoint="1882"/> 
+<MotionLabel name="carry_bowl" startPoint="1883" endPoint="1912"/> 
+<MotionLabel name="reach_plate" startPoint="1913" endPoint="1925"/> 
+<MotionLabel name="carry_plate" startPoint="1926" endPoint="1939"/> 
+<MotionLabel name="reach_cloth" startPoint="1940" endPoint="1949"/> 
+<MotionLabel name="carry_cloth" startPoint="1950" endPoint="1961"/> 
+<MotionLabel name="fry_egg" startPoint="1962" endPoint="2287"/> 
+<MotionLabel name="pickup_egg" startPoint="2288" endPoint="2300"/> 
+<MotionLabel name="carry_spatula" startPoint="2301" endPoint="2345"/> 
+<MotionLabel name="turnonOff_stove" startPoint="2346" endPoint="2380"/> 
+<MotionLabel name="reach_handle" startPoint="2381" endPoint="2394"/> 
+<MotionLabel name="hold_handle" startPoint="2395" endPoint="2416"/> 
+<MotionLabel name="garbage" startPoint="2417" endPoint="2425"/> 
+</Limb> 
+</MotionLabeling> 

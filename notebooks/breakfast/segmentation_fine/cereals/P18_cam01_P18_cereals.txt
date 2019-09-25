@@ -1,0 +1,17 @@
+1-41 garbage  
+42-60 carry_cereal  
+61-87 open_cereal  
+88-121 carry_cereal  
+122-154 pour_cereal  
+155-202 carry_cereal  
+203-223 move  
+224-241 carry_milk  
+242-263 screwopen_capMilk  
+264-315 pour_milk  
+316-350 screwclose_capMilk  
+351-375 carry_milk  
+376-393 carry_spoon  
+394-417 stir_cereal  
+418-425 wait  
+426-465 carry_bowl  
+466-465 garbage  

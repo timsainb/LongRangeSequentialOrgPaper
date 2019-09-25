@@ -1,0 +1,37 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P46\P46_cereals.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P46" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="27"/> 
+<MotionLabel name="reach_bowl" startPoint="28" endPoint="37"/> 
+<MotionLabel name="carry_bowl" startPoint="38" endPoint="51"/> 
+<MotionLabel name="reach_cereal" startPoint="52" endPoint="61"/> 
+<MotionLabel name="carry_cereal" startPoint="62" endPoint="70"/> 
+<MotionLabel name="open_cereal" startPoint="71" endPoint="92"/> 
+<MotionLabel name="carry_cereal" startPoint="93" endPoint="132"/> 
+<MotionLabel name="pour_cereal" startPoint="133" endPoint="184"/> 
+<MotionLabel name="carry_cereal" startPoint="185" endPoint="200"/> 
+<MotionLabel name="open_cereal" startPoint="201" endPoint="235"/> 
+<MotionLabel name="carry_cereal" startPoint="236" endPoint="282"/> 
+<MotionLabel name="close_cereal" startPoint="283" endPoint="297"/> 
+<MotionLabel name="carry_cereal" startPoint="298" endPoint="308"/> 
+<MotionLabel name="move" startPoint="309" endPoint="315"/> 
+<MotionLabel name="garbage" startPoint="316" endPoint="381"/> 
+<MotionLabel name="reach_milk" startPoint="382" endPoint="391"/> 
+<MotionLabel name="carry_spoon" startPoint="392" endPoint="405"/> 
+<MotionLabel name="screwopen_capSugar" startPoint="406" endPoint="421"/> 
+<MotionLabel name="carry_sugar" startPoint="422" endPoint="435"/> 
+<MotionLabel name="scoop_sugar" startPoint="436" endPoint="478"/> 
+<MotionLabel name="reach_sugar" startPoint="479" endPoint="485"/> 
+<MotionLabel name="screwclose_capSugar" startPoint="486" endPoint="518"/> 
+<MotionLabel name="carry_sugar" startPoint="519" endPoint="545"/> 
+<MotionLabel name="move" startPoint="546" endPoint="559"/> 
+<MotionLabel name="reach_milk" startPoint="560" endPoint="590"/> 
+<MotionLabel name="screwopen_capMilk" startPoint="591" endPoint="633"/> 
+<MotionLabel name="pour_milk" startPoint="634" endPoint="697"/> 
+<MotionLabel name="screwclose_capMilk" startPoint="698" endPoint="747"/> 
+<MotionLabel name="carry_milk" startPoint="748" endPoint="773"/> 
+<MotionLabel name="reach_bowl" startPoint="774" endPoint="784"/> 
+<MotionLabel name="stir_cereal" startPoint="785" endPoint="892"/> 
+<MotionLabel name="carry_bowl" startPoint="893" endPoint="900"/> 
+<MotionLabel name="garbage" startPoint="901" endPoint="900"/> 
+</Limb> 
+</MotionLabeling> 

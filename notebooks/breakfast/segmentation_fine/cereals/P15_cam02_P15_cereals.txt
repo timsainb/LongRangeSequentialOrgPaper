@@ -1,0 +1,12 @@
+1-20 garbage  
+20-36 reach_cereal  
+37-83 open_cereal  
+84-105 carry_cereal  
+106-171 pour_cereal  
+172-197 carry_cereal  
+198-226 close_cereal  
+227-243 reach_milk  
+244-265 carry_milk  
+266-321 pour_milk  
+322-367 carry_milk  
+368-383 garbage  

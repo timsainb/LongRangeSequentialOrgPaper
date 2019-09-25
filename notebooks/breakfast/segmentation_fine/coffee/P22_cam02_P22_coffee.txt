@@ -1,0 +1,9 @@
+1-39 garbage  
+40-54 move  
+55-62 carry_coffee  
+63-164 pour_coffee  
+165-177 carry_coffee  
+178-197 move  
+198-213 carry_coffee  
+214-234 walk  
+235-249 garbage  

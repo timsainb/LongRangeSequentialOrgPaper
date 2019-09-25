@@ -1,0 +1,46 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P38\P38_scrambledegg.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P38" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="75"/> 
+<MotionLabel name="pour_oil" startPoint="76" endPoint="95"/> 
+<MotionLabel name="screwclose_capOil" startPoint="96" endPoint="114"/> 
+<MotionLabel name="carry_oil" startPoint="115" endPoint="130"/> 
+<MotionLabel name="reach_spatula" startPoint="131" endPoint="140"/> 
+<MotionLabel name="carry_spatula" startPoint="141" endPoint="192"/> 
+<MotionLabel name="reach_knife" startPoint="193" endPoint="226"/> 
+<MotionLabel name="carry_spatula" startPoint="227" endPoint="243"/> 
+<MotionLabel name="reach_knife" startPoint="244" endPoint="249"/> 
+<MotionLabel name="reach_eggcarton" startPoint="250" endPoint="257"/> 
+<MotionLabel name="liftopen_eggcarton" startPoint="258" endPoint="279"/> 
+<MotionLabel name="reach_egg" startPoint="280" endPoint="286"/> 
+<MotionLabel name="carry_egg" startPoint="287" endPoint="312"/> 
+<MotionLabel name="carry_eggcarton" startPoint="314" endPoint="319"/> 
+<MotionLabel name="carry_egg" startPoint="320" endPoint="340"/> 
+<MotionLabel name="carry_knife" startPoint="341" endPoint="370"/> 
+<MotionLabel name="carry_egg" startPoint="371" endPoint="391"/> 
+<MotionLabel name="transfer_egg2pan" startPoint="392" endPoint="443"/> 
+<MotionLabel name="carry_egg" startPoint="444" endPoint="457"/> 
+<MotionLabel name="reach_cabinet" startPoint="458" endPoint="490"/> 
+<MotionLabel name="open_cabinet" startPoint="491" endPoint="506"/> 
+<MotionLabel name="close_cabinet" startPoint="507" endPoint="515"/> 
+<MotionLabel name="carry_knife" startPoint="516" endPoint="528"/> 
+<MotionLabel name="reach_faucet" startPoint="529" endPoint="539"/> 
+<MotionLabel name="twistonOff_faucet" startPoint="540" endPoint="554"/> 
+<MotionLabel name="wash" startPoint="555" endPoint="565"/> 
+<MotionLabel name="reach_faucet" startPoint="566" endPoint="571"/> 
+<MotionLabel name="twistonOff_faucet" startPoint="572" endPoint="584"/> 
+<MotionLabel name="move" startPoint="585" endPoint="611"/> 
+<MotionLabel name="turn" startPoint="612" endPoint="618"/> 
+<MotionLabel name="reach_spatula" startPoint="619" endPoint="634"/> 
+<MotionLabel name="carry_spatula" startPoint="635" endPoint="664"/> 
+<MotionLabel name="scramble_egg" startPoint="665" endPoint="712"/> 
+<MotionLabel name="fry_egg" startPoint="713" endPoint="3129"/> 
+<MotionLabel name="reach_plate" startPoint="3130" endPoint="3195"/> 
+<MotionLabel name="carry_plate" startPoint="3196" endPoint="3250"/> 
+<MotionLabel name="reach_pan" startPoint="3251" endPoint="3263"/> 
+<MotionLabel name="carry_pan" startPoint="3264" endPoint="3284"/> 
+<MotionLabel name="carry_spatula" startPoint="3286" endPoint="3390"/> 
+<MotionLabel name="carry_pan" startPoint="3391" endPoint="3410"/> 
+<MotionLabel name="reach_plate" startPoint="3411" endPoint="3425"/> 
+<MotionLabel name="garbage" startPoint="3426" endPoint="3453"/> 
+</Limb> 
+</MotionLabeling> 

@@ -1,0 +1,42 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P25\P25_salat.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P25" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="80"/> 
+<MotionLabel name="cut_fruit" startPoint="81" endPoint="112"/> 
+<MotionLabel name="carry_fruit" startPoint="113" endPoint="134"/> 
+<MotionLabel name="reach_fruit" startPoint="135" endPoint="142"/> 
+<MotionLabel name="carry_fruit" startPoint="143" endPoint="154"/> 
+<MotionLabel name="peel_fruit" startPoint="155" endPoint="686"/> 
+<MotionLabel name="carry_knife" startPoint="687" endPoint="704"/> 
+<MotionLabel name="carry_fruit" startPoint="705" endPoint="729"/> 
+<MotionLabel name="carry_knife" startPoint="730" endPoint="774"/> 
+<MotionLabel name="cut_fruit" startPoint="775" endPoint="881"/> 
+<MotionLabel name="reach_fruit" startPoint="882" endPoint="891"/> 
+<MotionLabel name="carry_fruit" startPoint="892" endPoint="917"/> 
+<MotionLabel name="reach_fruit" startPoint="918" endPoint="934"/> 
+<MotionLabel name="carry_fruit" startPoint="935" endPoint="970"/> 
+<MotionLabel name="cut_fruit" startPoint="971" endPoint="1167"/> 
+<MotionLabel name="carry_knife" startPoint="1168" endPoint="1184"/> 
+<MotionLabel name="peel_fruit" startPoint="1185" endPoint="1427"/> 
+<MotionLabel name="carry_knife" startPoint="1428" endPoint="1460"/> 
+<MotionLabel name="cut_fruit" startPoint="1461" endPoint="1789"/> 
+<MotionLabel name="reach_fruit" startPoint="1790" endPoint="1802"/> 
+<MotionLabel name="carry_fruit" startPoint="1803" endPoint="1812"/> 
+<MotionLabel name="reach_fruit" startPoint="1813" endPoint="1823"/> 
+<MotionLabel name="carry_knife" startPoint="1824" endPoint="1837"/> 
+<MotionLabel name="peel_fruit" startPoint="1838" endPoint="2030"/> 
+<MotionLabel name="carry_fruit" startPoint="2031" endPoint="2063"/> 
+<MotionLabel name="cut_fruit" startPoint="2064" endPoint="2149"/> 
+<MotionLabel name="reach_fruit" startPoint="2150" endPoint="2157"/> 
+<MotionLabel name="carry_fruit" startPoint="2158" endPoint="2170"/> 
+<MotionLabel name="reach_fruit" startPoint="2171" endPoint="2177"/> 
+<MotionLabel name="carry_fruit" startPoint="2178" endPoint="2185"/> 
+<MotionLabel name="reach_fruit" startPoint="2186" endPoint="2191"/> 
+<MotionLabel name="carry_fruit" startPoint="2192" endPoint="2217"/> 
+<MotionLabel name="peel_fruit" startPoint="2218" endPoint="2350"/> 
+<MotionLabel name="carry_fruit" startPoint="2351" endPoint="2402"/> 
+<MotionLabel name="cut_fruit" startPoint="2403" endPoint="2471"/> 
+<MotionLabel name="reach_fruit" startPoint="2472" endPoint="2500"/> 
+<MotionLabel name="carry_fruit" startPoint="2501" endPoint="2528"/> 
+<MotionLabel name="garbage" startPoint="2529" endPoint="2720"/> 
+</Limb> 
+</MotionLabeling> 

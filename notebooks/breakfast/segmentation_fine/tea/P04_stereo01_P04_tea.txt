@@ -1,0 +1,16 @@
+1-82 garbage  
+83-140 carry_teabag  
+141-169 open_teabag  
+170-185 carry_teabag  
+186-200 carry_cup  
+200-209 move  
+210-215 garbage  
+216-228 carry_kettle  
+229-317 pour_water  
+318-327 carry_kettle  
+328-333 hold_cup  
+334-347 carry_cup  
+348-353 hold_cup  
+354-394 walk  
+395-400 garbage  
+401-400 garbage  

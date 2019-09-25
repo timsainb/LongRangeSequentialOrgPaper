@@ -1,0 +1,8 @@
+1-944 garbage  
+945-975 carry_fruit  
+976-2358 cut_fruit  
+2359-2371 reach_fruit  
+2372-3256 carry_fruit  
+3257-4698 cut_fruit  
+4699-4854 carry_knife  
+4855-4923 garbage  

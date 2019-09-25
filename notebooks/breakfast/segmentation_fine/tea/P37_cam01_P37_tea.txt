@@ -1,0 +1,17 @@
+1-16 garbage  
+17-25 reach_cup  
+26-32 hold_cup  
+33-42 move  
+43-53 reach_kettle  
+54-67 reach_cup  
+68-81 carry_kettle  
+82-167 pour_water  
+168-189 carry_kettle  
+190-198 reach_teabag  
+199-288 carry_teabag  
+289-302 reach_cup  
+303-311 carry_cup  
+312-320 move  
+321-345 turn  
+346-367 garbage  
+368-367 garbage  

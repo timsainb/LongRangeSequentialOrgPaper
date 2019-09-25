@@ -1,0 +1,34 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P27\P27_coffee.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P27" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="15"/> 
+<MotionLabel name="shift" startPoint="16" endPoint="57"/> 
+<MotionLabel name="wait" startPoint="58" endPoint="64"/> 
+<MotionLabel name="shift" startPoint="65" endPoint="84"/> 
+<MotionLabel name="move" startPoint="85" endPoint="134"/> 
+<MotionLabel name="reach_coffee" startPoint="135" endPoint="148"/> 
+<MotionLabel name="carry_coffee" startPoint="149" endPoint="182"/> 
+<MotionLabel name="shift" startPoint="183" endPoint="198"/> 
+<MotionLabel name="reach_cup" startPoint="199" endPoint="210"/> 
+<MotionLabel name="move" startPoint="211" endPoint="217"/> 
+<MotionLabel name="hold_coffee" startPoint="218" endPoint="225"/> 
+<MotionLabel name="move" startPoint="226" endPoint="233"/> 
+<MotionLabel name="pour_coffee" startPoint="234" endPoint="381"/> 
+<MotionLabel name="carry_coffee" startPoint="382" endPoint="397"/> 
+<MotionLabel name="pour_coffee" startPoint="398" endPoint="514"/> 
+<MotionLabel name="carry_coffee" startPoint="515" endPoint="535"/> 
+<MotionLabel name="wait" startPoint="536" endPoint="544"/> 
+<MotionLabel name="move" startPoint="545" endPoint="570"/> 
+<MotionLabel name="carry_milk" startPoint="571" endPoint="578"/> 
+<MotionLabel name="hold_milk" startPoint="579" endPoint="587"/> 
+<MotionLabel name="screwopen_capMilk" startPoint="588" endPoint="607"/> 
+<MotionLabel name="pour_milk" startPoint="608" endPoint="668"/> 
+<MotionLabel name="carry_milk" startPoint="669" endPoint="678"/> 
+<MotionLabel name="pour_milk" startPoint="679" endPoint="727"/> 
+<MotionLabel name="screwclose_capMilk" startPoint="728" endPoint="775"/> 
+<MotionLabel name="carry_milk" startPoint="776" endPoint="798"/> 
+<MotionLabel name="reach_cup" startPoint="799" endPoint="809"/> 
+<MotionLabel name="carry_cup" startPoint="810" endPoint="825"/> 
+<MotionLabel name="reach_cup" startPoint="826" endPoint="840"/> 
+<MotionLabel name="garbage" startPoint="841" endPoint="855"/> 
+</Limb> 
+</MotionLabeling> 

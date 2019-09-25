@@ -1,0 +1,32 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P24\P24_friedegg.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P24" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="15"/> 
+<MotionLabel name="carry_spatula" startPoint="16" endPoint="49"/> 
+<MotionLabel name="reach_spatula" startPoint="50" endPoint="69"/> 
+<MotionLabel name="reach_handle" startPoint="70" endPoint="83"/> 
+<MotionLabel name="carry_spatula" startPoint="84" endPoint="151"/> 
+<MotionLabel name="reach_egg" startPoint="152" endPoint="167"/> 
+<MotionLabel name="carry_egg" startPoint="168" endPoint="184"/> 
+<MotionLabel name="reach_spatula" startPoint="185" endPoint="188"/> 
+<MotionLabel name="carry_spatula" startPoint="189" endPoint="222"/> 
+<MotionLabel name="transfer_egg2pan" startPoint="223" endPoint="286"/> 
+<MotionLabel name="carry_egg" startPoint="287" endPoint="336"/> 
+<MotionLabel name="carry_spatula" startPoint="337" endPoint="373"/> 
+<MotionLabel name="turnonOff_stove" startPoint="374" endPoint="422"/> 
+<MotionLabel name="fry_egg" startPoint="423" endPoint="500"/> 
+<MotionLabel name="garbage" startPoint="501" endPoint="687"/> 
+<MotionLabel name="fry_egg" startPoint="688" endPoint="1167"/> 
+<MotionLabel name="turnonOff_stove" startPoint="1168" endPoint="1292"/> 
+<MotionLabel name="fry_egg" startPoint="1293" endPoint="2983"/> 
+<MotionLabel name="turnonOff_stove" startPoint="2984" endPoint="3043"/> 
+<MotionLabel name="reach_cabinet" startPoint="3044" endPoint="3075"/> 
+<MotionLabel name="open_cabinet" startPoint="3076" endPoint="3088"/> 
+<MotionLabel name="reach_plate" startPoint="3089" endPoint="3103"/> 
+<MotionLabel name="carry_plate" startPoint="3104" endPoint="3136"/> 
+<MotionLabel name="reach_spatula" startPoint="3137" endPoint="3150"/> 
+<MotionLabel name="pickup_egg" startPoint="3151" endPoint="3196"/> 
+<MotionLabel name="carry_spatula" startPoint="3197" endPoint="3298"/> 
+<MotionLabel name="garbage" startPoint="3299" endPoint="3302"/> 
+<MotionLabel name="garbage" startPoint="3303" endPoint="3302"/> 
+</Limb> 
+</MotionLabeling> 

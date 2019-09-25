@@ -1,0 +1,28 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P42\P42_salat.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P42" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="185"/> 
+<MotionLabel name="carry_fruit" startPoint="186" endPoint="1762"/> 
+<MotionLabel name="reach_fruit" startPoint="1763" endPoint="1774"/> 
+<MotionLabel name="carry_fruit" startPoint="1775" endPoint="1780"/> 
+<MotionLabel name="reach_fruit" startPoint="1781" endPoint="1785"/> 
+<MotionLabel name="carry_fruit" startPoint="1786" endPoint="1823"/> 
+<MotionLabel name="cut_fruit" startPoint="1824" endPoint="2156"/> 
+<MotionLabel name="reach_fruit" startPoint="2157" endPoint="2183"/> 
+<MotionLabel name="carry_fruit" startPoint="2184" endPoint="2197"/> 
+<MotionLabel name="reach_fruit" startPoint="2198" endPoint="2206"/> 
+<MotionLabel name="garbage" startPoint="2207" endPoint="2431"/> 
+<MotionLabel name="carry_knife" startPoint="2432" endPoint="2508"/> 
+<MotionLabel name="cut_fruit" startPoint="2509" endPoint="3185"/> 
+<MotionLabel name="carry_knife" startPoint="3186" endPoint="3221"/> 
+<MotionLabel name="garbage" startPoint="3222" endPoint="3299"/> 
+<MotionLabel name="carry_bowl" startPoint="3300" endPoint="3313"/> 
+<MotionLabel name="reach_plate" startPoint="3314" endPoint="3329"/> 
+<MotionLabel name="reach_fork" startPoint="3330" endPoint="3348"/> 
+<MotionLabel name="carry_fork" startPoint="3349" endPoint="3365"/> 
+<MotionLabel name="transfer_fruit2bowl" startPoint="3366" endPoint="3530"/> 
+<MotionLabel name="carry_fork" startPoint="3531" endPoint="3556"/> 
+<MotionLabel name="reach_bowl" startPoint="3557" endPoint="3565"/> 
+<MotionLabel name="carry_bowl" startPoint="3566" endPoint="3578"/> 
+<MotionLabel name="garbage" startPoint="3579" endPoint="3608"/> 
+</Limb> 
+</MotionLabeling> 

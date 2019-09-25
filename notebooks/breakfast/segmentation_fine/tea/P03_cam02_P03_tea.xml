@@ -1,0 +1,33 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P03\P03_tea.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P03" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="31"/> 
+<MotionLabel name="reach_kettle" startPoint="32" endPoint="46"/> 
+<MotionLabel name="carry_kettle" startPoint="47" endPoint="80"/> 
+<MotionLabel name="wait" startPoint="81" endPoint="89"/> 
+<MotionLabel name="reach_cabinet" startPoint="90" endPoint="108"/> 
+<MotionLabel name="open_cabinet" startPoint="109" endPoint="125"/> 
+<MotionLabel name="reach_cup" startPoint="126" endPoint="153"/> 
+<MotionLabel name="carry_cup" startPoint="154" endPoint="190"/> 
+<MotionLabel name="reach_cabinet" startPoint="191" endPoint="205"/> 
+<MotionLabel name="close_cabinet" startPoint="206" endPoint="225"/> 
+<MotionLabel name="wait" startPoint="226" endPoint="330"/> 
+<MotionLabel name="reach_teabox" startPoint="331" endPoint="342"/> 
+<MotionLabel name="openClose_teabox" startPoint="343" endPoint="363"/> 
+<MotionLabel name="reach_teabox" startPoint="364" endPoint="375"/> 
+<MotionLabel name="reach_teabag" startPoint="376" endPoint="387"/> 
+<MotionLabel name="carry_teabox" startPoint="388" endPoint="411"/> 
+<MotionLabel name="reach_teabag" startPoint="412" endPoint="419"/> 
+<MotionLabel name="open_teabag" startPoint="420" endPoint="472"/> 
+<MotionLabel name="carry_teabag" startPoint="473" endPoint="531"/> 
+<MotionLabel name="wait" startPoint="532" endPoint="925"/> 
+<MotionLabel name="reach_kettle" startPoint="926" endPoint="967"/> 
+<MotionLabel name="carry_kettle" startPoint="968" endPoint="994"/> 
+<MotionLabel name="pour_water" startPoint="995" endPoint="1072"/> 
+<MotionLabel name="carry_kettle" startPoint="1073" endPoint="1160"/> 
+<MotionLabel name="reach_cup" startPoint="1161" endPoint="1188"/> 
+<MotionLabel name="carry_teabag" startPoint="1189" endPoint="1233"/> 
+<MotionLabel name="reach_cup" startPoint="1234" endPoint="1251"/> 
+<MotionLabel name="carry_cup" startPoint="1252" endPoint="1282"/> 
+<MotionLabel name="garbage" startPoint="1283" endPoint="1314"/> 
+</Limb> 
+</MotionLabeling> 

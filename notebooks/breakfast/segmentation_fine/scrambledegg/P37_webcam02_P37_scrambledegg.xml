@@ -1,0 +1,35 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P37\P37_scrambledegg.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P37" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="4"/> 
+<MotionLabel name="liftopen_eggcarton" startPoint="5" endPoint="18"/> 
+<MotionLabel name="reach_egg" startPoint="19" endPoint="29"/> 
+<MotionLabel name="reach_spatula" startPoint="30" endPoint="37"/> 
+<MotionLabel name="carry_spatula" startPoint="38" endPoint="85"/> 
+<MotionLabel name="transfer_egg2pan" startPoint="86" endPoint="116"/> 
+<MotionLabel name="carry_egg" startPoint="117" endPoint="139"/> 
+<MotionLabel name="scramble_egg" startPoint="140" endPoint="216"/> 
+<MotionLabel name="garbage" startPoint="217" endPoint="246"/> 
+<MotionLabel name="fry_egg" startPoint="247" endPoint="433"/> 
+<MotionLabel name="reach_salt" startPoint="434" endPoint="461"/> 
+<MotionLabel name="reach_spatula" startPoint="462" endPoint="470"/> 
+<MotionLabel name="carry_spatula" startPoint="471" endPoint="477"/> 
+<MotionLabel name="pour_salt" startPoint="478" endPoint="530"/> 
+<MotionLabel name="carry_spatula" startPoint="531" endPoint="548"/> 
+<MotionLabel name="reach_pepper" startPoint="549" endPoint="557"/> 
+<MotionLabel name="carry_pepper" startPoint="558" endPoint="567"/> 
+<MotionLabel name="carry_spatula" startPoint="568" endPoint="579"/> 
+<MotionLabel name="screwopen_capPepper" startPoint="580" endPoint="584"/> 
+<MotionLabel name="carry_pepper" startPoint="585" endPoint="608"/> 
+<MotionLabel name="pour_pepper" startPoint="609" endPoint="655"/> 
+<MotionLabel name="screwclose_capPepper" startPoint="656" endPoint="668"/> 
+<MotionLabel name="carry_pepper" startPoint="669" endPoint="678"/> 
+<MotionLabel name="fry_egg" startPoint="679" endPoint="1089"/> 
+<MotionLabel name="carry_spatula" startPoint="1090" endPoint="1239"/> 
+<MotionLabel name="reach_stove" startPoint="1240" endPoint="1252"/> 
+<MotionLabel name="carry_pan" startPoint="1253" endPoint="1292"/> 
+<MotionLabel name="reach_spatula" startPoint="1293" endPoint="1298"/> 
+<MotionLabel name="carry_spatula" startPoint="1299" endPoint="1317"/> 
+<MotionLabel name="turn" startPoint="1318" endPoint="1350"/> 
+<MotionLabel name="garbage" startPoint="1351" endPoint="1365"/> 
+</Limb> 
+</MotionLabeling> 

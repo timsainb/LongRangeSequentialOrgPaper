@@ -1,0 +1,15 @@
+1-45 garbage  
+46-61 reach_cabinet  
+62-76 open_cabinet  
+77-91 close_cabinet  
+92-92 reach_teabox  
+93-106 openClose_teabox  
+107-135 reach_teabag  
+136-166 open_teabag  
+167-181 reach_cup  
+182-195 hold_cup  
+196-257 walk  
+258-285 reach_cup  
+286-301 carry_kettle  
+302-362 pour_water  
+363-511 garbage  

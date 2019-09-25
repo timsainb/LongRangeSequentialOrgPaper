@@ -1,0 +1,17 @@
+1-4 garbage  
+5-49 reach_teabox  
+50-73 carry_teabox  
+74-173 wait  
+174-188 reach_teabox  
+189-244 openClose_teabox  
+245-259 reach_teabag  
+260-300 carry_teabag  
+301-385 open_teabag  
+386-408 carry_teabag  
+409-468 shift  
+469-495 reach_kettle  
+496-617 pour_water  
+618-637 carry_kettle  
+638-676 shift  
+677-796 carry_teabag  
+797-899 garbage  

@@ -1,0 +1,24 @@
+<MotionLabeling author="Hilde Kuehne" motionFile="P20\P20_juice.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P20" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
+<Limb name="whole_body"> 
+<MotionLabel name="garbage" startPoint="1" endPoint="97"/> 
+<MotionLabel name="reach_orange" startPoint="98" endPoint="110"/> 
+<MotionLabel name="carry_orange" startPoint="111" endPoint="162"/> 
+<MotionLabel name="cut_orange" startPoint="163" endPoint="194"/> 
+<MotionLabel name="carry_orange" startPoint="195" endPoint="212"/> 
+<MotionLabel name="reach_juicer" startPoint="213" endPoint="221"/> 
+<MotionLabel name="carry_juicer" startPoint="222" endPoint="238"/> 
+<MotionLabel name="squeeze_orange" startPoint="239" endPoint="393"/> 
+<MotionLabel name="carry_orange" startPoint="394" endPoint="436"/> 
+<MotionLabel name="squeeze_orange" startPoint="437" endPoint="587"/> 
+<MotionLabel name="carry_orange" startPoint="588" endPoint="606"/> 
+<MotionLabel name="reach_cabinet" startPoint="607" endPoint="621"/> 
+<MotionLabel name="open_cabinet" startPoint="622" endPoint="646"/> 
+<MotionLabel name="close_cabinet" startPoint="647" endPoint="666"/> 
+<MotionLabel name="reach_juicer" startPoint="667" endPoint="685"/> 
+<MotionLabel name="carry_juicer" startPoint="686" endPoint="697"/> 
+<MotionLabel name="pour_juice" startPoint="698" endPoint="769"/> 
+<MotionLabel name="carry_juicer" startPoint="770" endPoint="797"/> 
+<MotionLabel name="reach_cup" startPoint="798" endPoint="819"/> 
+<MotionLabel name="garbage" startPoint="820" endPoint="916"/> 
+</Limb> 
+</MotionLabeling> 

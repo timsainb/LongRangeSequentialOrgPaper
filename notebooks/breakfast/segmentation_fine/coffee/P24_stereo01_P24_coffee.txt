@@ -1,0 +1,11 @@
+1-92 garbage  
+93-127 carry_cup  
+128-140 move  
+141-145 carry_coffee  
+146-158 move  
+159-282 pour_coffee  
+283-292 reach_cup  
+293-312 shift  
+313-325 wait  
+326-355 carry_cup  
+356-370 garbage  

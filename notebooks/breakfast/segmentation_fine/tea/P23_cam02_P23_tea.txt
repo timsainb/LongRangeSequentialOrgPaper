@@ -1,0 +1,12 @@
+1-87 garbage  
+88-135 carry_cup  
+136-195 open_teabag  
+196-273 carry_teabag  
+274-336 walk  
+337-363 garbage  
+364-403 carry_kettle  
+404-511 pour_water  
+512-587 carry_kettle  
+588-649 walk  
+650-677 carry_teabag  
+678-717 garbage  

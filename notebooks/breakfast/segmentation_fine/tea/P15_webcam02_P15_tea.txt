@@ -1,0 +1,16 @@
+1-13 garbage  
+14-30 reach_teabox  
+31-37 openClose_teabox  
+38-55 carry_teabag  
+56-82 open_teabag  
+83-100 carry_teabag  
+101-130 shift  
+131-158 carry_kettle  
+159-240 pour_water  
+241-268 carry_kettle  
+269-303 shift  
+304-324 carry_cup  
+325-339 reach_teabox  
+340-348 carry_teabox  
+349-358 hold_cup  
+359-358 garbage  

@@ -1,0 +1,8 @@
+1-54 garbage  
+55-152 pour_water  
+153-174 carry_kettle  
+175-194 reach_teabag  
+195-223 open_teabag  
+224-263 carry_teabag  
+264-347 wait  
+348-369 garbage  
