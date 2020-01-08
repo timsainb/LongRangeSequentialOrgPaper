@@ -1,9 +1,0 @@
-<MotionLabeling author="Hilde Kuehne" motionFile="P11\P11_tea.fine" motionFilePathType="first parent" motionFileType=".avi" motionSequenceName="P11" segType="Manual Multi Segmentation" segmentationCriteria="MotionSequenceLabel_ADLDataset_17_12_2010_h.xml"> 
-<Limb name="whole_body"> 
-<MotionLabel name="garbage" startPoint="1" endPoint="41"/> 
-<MotionLabel name="carry_teabag" startPoint="42" endPoint="132"/> 
-<MotionLabel name="pour_water" startPoint="133" endPoint="213"/> 
-<MotionLabel name="carry_kettle" startPoint="214" endPoint="234"/> 
-<MotionLabel name="garbage" startPoint="235" endPoint="335"/> 
-</Limb> 
-</MotionLabeling> 
