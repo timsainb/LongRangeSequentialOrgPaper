@@ -7,12 +7,22 @@ from sklearn.metrics.cluster.supervised import contingency_matrix
 from scipy import sparse as sp
 
 # modelling
-from sklearn.externals.joblib import Parallel, delayed
+from joblib import Parallel, delayed
 
 from sklearn.metrics.cluster.expected_mutual_info_fast import (
     expected_mutual_information,
 )
+# from ._expected_mutual_info_fast import expected_mutual_information
+#from .expected_mutual_information_numpy import emi as expected_mutual_information
+from .expected_mutual_information import emi_parallel
 
+# from .expected_mutual_information import expected_mutual_information
+
+from sklearn.metrics import (
+    mutual_info_score,
+    normalized_mutual_info_score,
+    adjusted_mutual_info_score,
+)
 
 ######## Mutual Information ############
 def entropy(X):
@@ -174,7 +184,15 @@ def _generalized_average(U, V, average_method):
 
 
 ######## Mutual Information From distributions ############
-def MI_from_distributions(sequences, dist, estimate=False, unclustered_element=None):
+def MI_from_distributions(
+    sequences,
+    dist,
+    estimate=False,
+    unclustered_element=None,
+    use_sklearn=True,
+    adjusted_mi=False,  # if not estimating, use adjusted MI to account for chance
+    **mi_kwargs
+):
     np.random.seed()  # set seed
     # create distributions
     if np.sum([len(seq) > dist for seq in sequences]) == 0:
@@ -199,9 +217,25 @@ def MI_from_distributions(sequences, dist, estimate=False, unclustered_element=N
     # calculate MI
 
     if estimate:
-        return est_mutual_info_p(distribution_a, distribution_b)
+        return est_mutual_info_p(distribution_a, distribution_b, **mi_kwargs)
     else:
-        return mutual_info_p(distribution_a, distribution_b)
+        if use_sklearn:
+            if adjusted_mi:
+                return (adjusted_mutual_info_score(distribution_a, distribution_b), 0)
+            else:
+                C = contingency_matrix(distribution_a, distribution_b, sparse=True)
+                n_samples = C.sum()
+                #emi = expected_mutual_information(C, n_samples)
+                emi = emi_parallel(C, n_samples)
+                #emi = expected_mutual_information(C, n_samples)
+                print(emi)#, emi2)
+                return (
+                    mutual_info_score(distribution_a, distribution_b, **mi_kwargs)
+                    - emi,
+                    0,
+                )  # emi
+        else:
+            return mutual_info_p(distribution_a, distribution_b, **mi_kwargs)
 
 
 def sequential_mutual_information(
@@ -212,8 +246,9 @@ def sequential_mutual_information(
     n_shuff_repeats=1,
     estimate=True,
     disable_tqdm=False,
-    prefer="threads",
+    prefer="threads",  # is None better here?
     unclustered_element=None,
+    **mi_kwargs
 ):
     """
     Compute mutual information as a function of distance between sequences
@@ -250,6 +285,7 @@ def sequential_mutual_information(
                 dist,
                 estimate=estimate,
                 unclustered_element=unclustered_element,
+                **mi_kwargs
             )
             for dist_i, dist in enumerate(
                 tqdm(distances, leave=False, disable=disable_tqdm)
@@ -258,7 +294,10 @@ def sequential_mutual_information(
         distances_rep = np.repeat(distances, n_shuff_repeats)
         shuff_MI = [
             MI_from_distributions(
-                [np.random.permutation(i) for i in sequences], dist, estimate=estimate
+                [np.random.permutation(i) for i in sequences],
+                dist,
+                estimate=estimate,
+                **mi_kwargs
             )
             for dist_i, dist in enumerate(
                 tqdm(distances_rep, leave=False, disable=disable_tqdm)
@@ -276,6 +315,7 @@ def sequential_mutual_information(
                     dist,
                     estimate=estimate,
                     unclustered_element=unclustered_element,
+                    **mi_kwargs
                 )
                 for dist_i, dist in enumerate(
                     tqdm(distances, leave=False, disable=disable_tqdm)
@@ -290,6 +330,7 @@ def sequential_mutual_information(
                     dist,
                     estimate=estimate,
                     unclustered_element=unclustered_element,
+                    **mi_kwargs
                 )
                 for dist_i, dist in enumerate(
                     tqdm(distances_rep, leave=False, disable=disable_tqdm)
