@@ -60,18 +60,7 @@ def expected_mutual_information_numpy(contingency, n_samples):
             term3 = np.exp(gln)
             # Add the product of all terms.
             emi += sum(term1[nij] * term2 * term3)
-            
-            
-    pprint.pprint(
-        {v: type(i) for v, i in locals().items()}
-    )
-    pprint.pprint(
-        {
-            v: [str(round(i.nbytes * 1e-9, 3)) + " Gb", np.shape(i), i.dtype]
-            for v, i in locals().items()
-            if type(i) == np.ndarray
-        },
-    )
+
     
     return emi
 
