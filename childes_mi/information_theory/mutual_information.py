@@ -5,73 +5,21 @@ from tqdm.autonotebook import tqdm
 import scipy.special
 from sklearn.metrics.cluster.supervised import contingency_matrix
 from scipy import sparse as sp
+import copy
+from childes_mi.information_theory.ami import adjusted_mutual_information
 
 # modelling
-from sklearn.externals.joblib import Parallel, delayed
+from joblib import Parallel, delayed
 
 from sklearn.metrics.cluster.expected_mutual_info_fast import (
     expected_mutual_information,
 )
 
-
-######## Mutual Information ############
-def entropy(X):
-    dist = np.array(X)
-    N = float(len(dist))
-    Nall = np.array([np.sum(dist == c) for c in set(dist)])
-    pAll = Nall / N
-    S = -np.sum(pAll * np.log2(pAll))
-    var = np.var(-np.log2(pAll))
-    return S, var
-
-
-def joint_entropy(X, Y):
-    N = float(len(X))
-    contingency = contingency_matrix(X, Y, sparse=True)
-    nzx, nzy, Nall = sp.find(contingency)
-    pAll = Nall / N
-    S = -np.sum(pAll * np.log2(pAll))
-    var = np.var(-np.log2(pAll))
-    return S, var
-
-
-def mutual_info(a, b):
-    e_a, var_a = entropy(a)
-    e_b, var_b = entropy(b)
-    e_ab, var_ab = joint_entropy(a, b)
-    return e_a + e_b - e_ab, np.sqrt((var_a + var_b + var_ab) / len(a))
-
-
-######## Estimate Mutual Information ############
-def est_entropy(X):
-
-    dist = np.array(X)
-    N = float(len(dist))
-    Nall = [np.sum(dist == c) for c in set(dist)]
-    pAll = np.array([float(Ni) * scipy.special.psi(float(Ni)) for Ni in Nall])
-    S_hat = np.log2(N) - 1.0 / N * np.sum(pAll)
-    var = np.var(scipy.special.psi(np.array(Nall, dtype="float32")))
-    return S_hat, var
-
-
-def est_joint_entropy(X, Y):
-
-    N = float(len(X))
-    contingency = contingency_matrix(X, Y, sparse=True)
-    nzx, nzy, Nall = sp.find(contingency)
-
-    pAll = np.array([Ni * scipy.special.psi(Ni) for Ni in Nall if Ni > 0])
-    S_hat = np.log2(N) - 1 / N * np.sum(pAll)
-    var = np.var(scipy.special.psi(np.array(Nall, dtype="float32")))
-    return S_hat, var
-
-
-def est_mutual_info(a, b):
-    e_a, var_a = est_entropy(a)
-    e_b, var_b = est_entropy(b)
-    e_ab, var_ab = est_joint_entropy(a, b)
-    return e_a + e_b - e_ab, (var_a + var_b + var_ab) / len(a)
-
+from sklearn.metrics import (
+    mutual_info_score,
+    normalized_mutual_info_score,
+    adjusted_mutual_info_score,
+)
 
 ######## Estimate Mutual Information Faster ############
 
@@ -88,6 +36,8 @@ def est_mutual_info_p(a, b):
     # entropy of b
     Nb = np.ravel(contingency.sum(axis=1))
     S_b, var_b = entropyp(Nb)
+
+    # joint
     S_ab, var_ab = entropyp(Nall)
 
     # mutual information
@@ -111,7 +61,7 @@ def entropyp(Nall):
     return S_hat, var
 
 
-def mutual_info_p(a, b, average_method="arithmetic", normalize=False):
+def mutual_info_p(a, b):
     """ Fast mutual information calculation based upon sklearn,
     but with estimation of uncertainty from Lin & Tegmark 2016
     """
@@ -136,57 +86,46 @@ def mutual_info_p(a, b, average_method="arithmetic", normalize=False):
     # uncertainty and variance of MI
     MI_var = var_a + var_b + var_ab
 
-    # normalization
-    if normalize:
-        # expected mutual information
-        emi = expected_mutual_information(contingency, N)
-        # normalization
-        normalizer = _generalized_average(S_a, S_b, average_method)
-        denominator = normalizer - emi
-        if denominator < 0:
-            denominator = min(denominator, -np.finfo("float64").eps)
-        else:
-            denominator = max(denominator, np.finfo("float64").eps)
-
-        MI = (MI - emi) / denominator
-        # this breaks MI_var - we would need to account for EMI
-        MI_var = MI_var / denominator
-
     uncertainty = np.sqrt((MI_var) / len(a))
 
     return MI, uncertainty
 
 
-def _generalized_average(U, V, average_method):
-    """Return a particular mean of two numbers."""
-    if average_method == "min":
-        return min(U, V)
-    elif average_method == "geometric":
-        return np.sqrt(U * V)
-    elif average_method == "arithmetic":
-        return np.mean([U, V])
-    elif average_method == "max":
-        return max(U, V)
-    else:
-        raise ValueError(
-            "'average_method' must be 'min', 'geometric', " "'arithmetic', or 'max'"
-        )
 
 
 ######## Mutual Information From distributions ############
-def MI_from_distributions(sequences, dist, estimate=False, unclustered_element=None):
+def MI_from_distributions(
+    sequences,
+    dist,
+    unclustered_element=None,
+    use_sklearn=True,
+    n_jobs = -1,
+    shuffle = False,
+    mi_estimation = "grassberger", # "adjusted_mi", None
+    **mi_kwargs
+):
     np.random.seed()  # set seed
     # create distributions
     if np.sum([len(seq) > dist for seq in sequences]) == 0:
         return (np.nan, np.nan)
 
-    distribution_a = np.concatenate(
-        [seq[dist:] for seq in sequences if len(seq) > dist]
-    )
+    if shuffle:
+        distribution_a = np.concatenate(
+            [np.random.permutation(seq[dist:]) for seq in sequences if len(seq) > dist]
+        )
 
-    distribution_b = np.concatenate(
-        [seq[:-dist] for seq in sequences if len(seq) > dist]
-    )
+        distribution_b = np.concatenate(
+            [np.random.permutation(seq[:-dist]) for seq in sequences if len(seq) > dist]
+        )
+    
+    else:
+        distribution_a = np.concatenate(
+            [seq[dist:] for seq in sequences if len(seq) > dist]
+        )
+
+        distribution_b = np.concatenate(
+            [seq[:-dist] for seq in sequences if len(seq) > dist]
+        )
 
     # mask unclustered so they are not considered in MI
     if unclustered_element is not None:
@@ -198,22 +137,34 @@ def MI_from_distributions(sequences, dist, estimate=False, unclustered_element=N
 
     # calculate MI
 
-    if estimate:
+    if mi_estimation == "grassberger":
+        # See Grassberger, P. Entropy estimates from insufficient samplings. arXiv 2003, arXiv:0307138
         return est_mutual_info_p(distribution_a, distribution_b)
+    elif mi_estimation == "adjusted_mi_parallel":
+        # parallelized mi estimation for very large distributions
+        # See Vinh, Epps, and Bailey, (2010). Information Theoretic Measures for Clusterings Comparison: Variants, Properties, Normalization and Correction for Chance, JMLR
+        return adjusted_mutual_information(distribution_a, distribution_b, n_jobs=n_jobs, **mi_kwargs)
+    elif mi_estimation == "adjusted_mi_sklearn":
+        # modified version of sklearn ami calculation in 0(n) memory instead of O^n
+        # See Vinh, Epps, and Bailey, (2010). Information Theoretic Measures for Clusterings Comparison: Variants, Properties, Normalization and Correction for Chance, JMLR
+        return adjusted_mutual_information(distribution_a, distribution_b, emi_method="sklearn", **mi_kwargs)
+    elif mi_estimation is None:
+        # sklearns mi implementation
+        return (mutual_info_score(distribution_a, distribution_b, **mi_kwargs), 0)
     else:
-        return mutual_info_p(distribution_a, distribution_b)
-
+        raise ValueError("MI estimator '{}' is not implemented".format(mi_estimation))
 
 def sequential_mutual_information(
     sequences,
     distances,
     n_jobs=1,
     verbosity=5,
-    n_shuff_repeats=1,
-    estimate=True,
+    n_shuff_repeats=1, # how many times to shuffle distribution in order to estimate lower bound
     disable_tqdm=False,
-    prefer="threads",
+    prefer=None,  # is None better here?
+    mi_estimation = "grassberger",
     unclustered_element=None,
+    **mi_kwargs
 ):
     """
     Compute mutual information as a function of distance between sequences
@@ -235,21 +186,29 @@ def sequential_mutual_information(
         sequences = [
             np.array([seq_dict[i] for i in seq]).astype("uint32") for seq in sequences
         ]
-
+    
+    # adjust dataset so that unclustered elements are not factored into MI elements
     if unclustered_element is not None:
         unclustered_element = seq_dict[unclustered_element]
         print(unclustered_element)
     else:
         unclustered_element = None
 
+    # because parallelization occurs within the function
+    if mi_estimation == "adjusted_mi":    
+        _n_jobs = copy.deepcopy(n_jobs)
+        n_jobs = 1
+    else:
+        _n_jobs = 1
     # compute MI
     if n_jobs == 1:
         MI = [
             MI_from_distributions(
                 sequences,
                 dist,
-                estimate=estimate,
                 unclustered_element=unclustered_element,
+                mi_estimation=mi_estimation,
+                **mi_kwargs
             )
             for dist_i, dist in enumerate(
                 tqdm(distances, leave=False, disable=disable_tqdm)
@@ -258,7 +217,12 @@ def sequential_mutual_information(
         distances_rep = np.repeat(distances, n_shuff_repeats)
         shuff_MI = [
             MI_from_distributions(
-                [np.random.permutation(i) for i in sequences], dist, estimate=estimate
+                sequences,
+                dist,
+                unclustered_element=unclustered_element,
+                mi_estimation=mi_estimation,
+                shuffle=True,
+                **mi_kwargs
             )
             for dist_i, dist in enumerate(
                 tqdm(distances_rep, leave=False, disable=disable_tqdm)
@@ -274,8 +238,10 @@ def sequential_mutual_information(
                 delayed(MI_from_distributions)(
                     sequences,
                     dist,
-                    estimate=estimate,
                     unclustered_element=unclustered_element,
+                    n_jobs = _n_jobs,
+                    mi_estimation=mi_estimation,
+                    **mi_kwargs
                 )
                 for dist_i, dist in enumerate(
                     tqdm(distances, leave=False, disable=disable_tqdm)
@@ -286,10 +252,13 @@ def sequential_mutual_information(
             distances_rep = np.repeat(distances, n_shuff_repeats)
             shuff_MI = parallel(
                 delayed(MI_from_distributions)(
-                    [np.random.permutation(i) for i in sequences],
+                    sequences,
                     dist,
-                    estimate=estimate,
                     unclustered_element=unclustered_element,
+                    n_jobs = _n_jobs,
+                    mi_estimation=mi_estimation,
+                    shuffle=True,
+                    **mi_kwargs
                 )
                 for dist_i, dist in enumerate(
                     tqdm(distances_rep, leave=False, disable=disable_tqdm)
