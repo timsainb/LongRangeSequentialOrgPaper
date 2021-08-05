@@ -3,6 +3,7 @@ import xmltodict
 import numpy as np
 import pandas as pd
 import warnings
+from childes_mi.utils.paths import ensure_dir
 
 
 def get_participants(participants):
@@ -10,31 +11,31 @@ def get_participants(participants):
     participant_df = pd.DataFrame(
         columns=["participant_id", "role", "name", "age", "birthday", "sex", "language"]
     )
+    for participant_list in participants:
+        participant_list = participant_list["participant"]
 
-    for participant in participants:
-        participant = participant["participant"]
-        if type(participant) == list:
-            participant = participant[0]
-
-        # ensure the dictionary is valid
-        missing_elements = _check_for_expected_keys(
-            participant,
-            expected_keys["session/participant"],
-            place="participant",
-            raise_error=False,
-        )
-        # add nan to any missing elements
-        for element in missing_elements:
-            participant[element] = np.nan
-        participant_df.loc[len(participant_df)] = [
-            participant["@id"],
-            participant["role"],
-            participant["name"],
-            participant["age"],
-            participant["birthday"],
-            participant["sex"],
-            participant["language"],
-        ]
+        if type(participant_list) != list:
+            participant_list = [participant_list]
+        for participant in participant_list:
+            # ensure the dictionary is valid
+            missing_elements = _check_for_expected_keys(
+                participant,
+                expected_keys["session/participant"],
+                place="participant",
+                raise_error=False,
+            )
+            # add nan to any missing elements
+            for element in missing_elements:
+                participant[element] = np.nan
+            participant_df.loc[len(participant_df)] = [
+                participant["@id"],
+                participant["role"],
+                participant["name"],
+                participant["age"],
+                participant["birthday"],
+                participant["sex"],
+                participant["language"],
+            ]
     return participant_df
 
 
@@ -273,9 +274,11 @@ def process_transcript(xml_loc, participant_save_loc=None, transcript_save_loc=N
     transcript_df["xml_loc"] = xml_loc
 
     if participant_save_loc is not None:
+        ensure_dir(participant_save_loc)
         participant_df.to_pickle(participant_save_loc)
 
     if transcript_save_loc is not None:
+        ensure_dir(transcript_save_loc)
         transcript_df.to_pickle(transcript_save_loc)
 
     transcript_info_df = pd.DataFrame(

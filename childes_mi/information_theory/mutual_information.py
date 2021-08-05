@@ -3,7 +3,7 @@ import numpy as np
 import scipy
 from tqdm.autonotebook import tqdm
 import scipy.special
-from sklearn.metrics.cluster.supervised import contingency_matrix
+from sklearn.metrics.cluster import contingency_matrix
 from scipy import sparse as sp
 import copy
 from childes_mi.information_theory.ami import adjusted_mutual_information
@@ -11,9 +11,9 @@ from childes_mi.information_theory.ami import adjusted_mutual_information
 # modelling
 from joblib import Parallel, delayed
 
-from sklearn.metrics.cluster.expected_mutual_info_fast import (
-    expected_mutual_information,
-)
+# from sklearn.metrics.cluster.expected_mutual_info_fast import (
+#    expected_mutual_information,
+# )
 
 from sklearn.metrics import (
     mutual_info_score,
@@ -62,7 +62,7 @@ def entropyp(Nall):
 
 
 def mutual_info_p(a, b):
-    """ Fast mutual information calculation based upon sklearn,
+    """Fast mutual information calculation based upon sklearn,
     but with estimation of uncertainty from Lin & Tegmark 2016
     """
     # contingency matrix of a * b
@@ -91,17 +91,15 @@ def mutual_info_p(a, b):
     return MI, uncertainty
 
 
-
-
 ######## Mutual Information From distributions ############
 def MI_from_distributions(
     sequences,
     dist,
     unclustered_element=None,
     use_sklearn=True,
-    n_jobs = -1,
-    shuffle = False,
-    mi_estimation = "grassberger", # "adjusted_mi", None
+    n_jobs=-1,
+    shuffle=False,
+    mi_estimation="grassberger",  # "adjusted_mi", None
     **mi_kwargs
 ):
     np.random.seed()  # set seed
@@ -117,7 +115,7 @@ def MI_from_distributions(
         distribution_b = np.concatenate(
             [np.random.permutation(seq[:-dist]) for seq in sequences if len(seq) > dist]
         )
-    
+
     else:
         distribution_a = np.concatenate(
             [seq[dist:] for seq in sequences if len(seq) > dist]
@@ -143,26 +141,31 @@ def MI_from_distributions(
     elif mi_estimation == "adjusted_mi_parallel":
         # parallelized mi estimation for very large distributions
         # See Vinh, Epps, and Bailey, (2010). Information Theoretic Measures for Clusterings Comparison: Variants, Properties, Normalization and Correction for Chance, JMLR
-        return adjusted_mutual_information(distribution_a, distribution_b, n_jobs=n_jobs, **mi_kwargs)
+        return adjusted_mutual_information(
+            distribution_a, distribution_b, n_jobs=n_jobs, **mi_kwargs
+        )
     elif mi_estimation == "adjusted_mi_sklearn":
         # modified version of sklearn ami calculation in 0(n) memory instead of O^n
         # See Vinh, Epps, and Bailey, (2010). Information Theoretic Measures for Clusterings Comparison: Variants, Properties, Normalization and Correction for Chance, JMLR
-        return adjusted_mutual_information(distribution_a, distribution_b, emi_method="sklearn", **mi_kwargs)
+        return adjusted_mutual_information(
+            distribution_a, distribution_b, emi_method="sklearn", **mi_kwargs
+        )
     elif mi_estimation is None:
         # sklearns mi implementation
         return (mutual_info_score(distribution_a, distribution_b, **mi_kwargs), 0)
     else:
         raise ValueError("MI estimator '{}' is not implemented".format(mi_estimation))
 
+
 def sequential_mutual_information(
     sequences,
     distances,
     n_jobs=1,
     verbosity=5,
-    n_shuff_repeats=1, # how many times to shuffle distribution in order to estimate lower bound
+    n_shuff_repeats=1,  # how many times to shuffle distribution in order to estimate lower bound
     disable_tqdm=False,
     prefer=None,  # is None better here?
-    mi_estimation = "grassberger",
+    mi_estimation="grassberger",
     unclustered_element=None,
     **mi_kwargs
 ):
@@ -186,7 +189,7 @@ def sequential_mutual_information(
         sequences = [
             np.array([seq_dict[i] for i in seq]).astype("uint32") for seq in sequences
         ]
-    
+
     # adjust dataset so that unclustered elements are not factored into MI elements
     if unclustered_element is not None:
         unclustered_element = seq_dict[unclustered_element]
@@ -195,7 +198,7 @@ def sequential_mutual_information(
         unclustered_element = None
 
     # because parallelization occurs within the function
-    if mi_estimation == "adjusted_mi":    
+    if mi_estimation == "adjusted_mi":
         _n_jobs = copy.deepcopy(n_jobs)
         n_jobs = 1
     else:
@@ -239,7 +242,7 @@ def sequential_mutual_information(
                     sequences,
                     dist,
                     unclustered_element=unclustered_element,
-                    n_jobs = _n_jobs,
+                    n_jobs=_n_jobs,
                     mi_estimation=mi_estimation,
                     **mi_kwargs
                 )
@@ -255,7 +258,7 @@ def sequential_mutual_information(
                     sequences,
                     dist,
                     unclustered_element=unclustered_element,
-                    n_jobs = _n_jobs,
+                    n_jobs=_n_jobs,
                     mi_estimation=mi_estimation,
                     shuffle=True,
                     **mi_kwargs
